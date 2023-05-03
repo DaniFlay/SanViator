@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videojuegos [
+<!ELEMENT videojuegos (videojuego+)>
+<!ATTLIST videojuego venta (si | no) #REQUIRED>
+<!ATTLIST videojuego jugador (singlePlayer | multiPlayer) singlePlayer #REQUIRED>
+<!ELEMENT videojuego (nombre, genero, fechaDeSalida, puntuaciones, sistemas)>
+<!ELEMENT nombre#PCDATA>
+<!ELEMENT genero #PCDATA>
+<!ELEMENT fecha (dia, mes, anyo)>
+<!ELEMENT dia #PCDATA>
+<!ELEMENT mes #PCDATA>
+<!ELEMENT anyo #PCDATA>
+<!ELEMENT puntuaciones (puntuacion?)>
+<!ATTLIST puntuacion fuente CDATA #REQUIRED>
+<!ELEMENT puntuacion #PCDATA>
+<!ELEMENT sistemas (sistema+)>
+<!ELEMENT sistema #PCDATA>
+]>
+<videojuegos>
+  <videojuego venta="no" jugador="multiPlayer">
+    <nombre>League of Legends</nombre>
+    <genero>estrategia</genero>
+    <fechaDeSalida>
+      <dia>12</dia>
+      <mes>10</mes>
+      <anyo>2008</anyo>
+    </fechaDeSalida>
+    <puntuaciones fuente="Steam">9</puntuaciones>
+    <sistemas>
+      <sistema>PC</sistema>
+    </sistemas>
+  </videojuego>
+  <videojuego venta="si" jugador="singlePlayer">
+    <nombre>Spider-Man: Miles Morales</nombre>
+    <genero>accion</genero>
+    <fechaDeSalida>
+      <dia>24</dia>
+      <mes>11</mes>
+      <anyo>2021</anyo>
+    </fechaDeSalida>
+    <puntuaciones fuente="Steam">9.5</puntuaciones>
+    <puntuaciones fuente="Epic Games">9</puntuaciones>
+    <sistemas>
+      <sistema>PC</sistema>
+      <sistema>PlayStation 5</sistema>
+      <sistema>Xbox one series x</sistema>
+    </sistemas>
+  </videojuego>
+  <videojuego venta="si" jugador="multiPlayer">
+    <nombre>Fortnite</nombre>
+    <genero>Battle Royale</genero>
+    <fechaDeSalida>
+      <dia>06</dia>
+      <mes>02</mes>
+      <anyo>2015</anyo>
+    </fechaDeSalida>
+    <puntuaciones fuente="Steam">8.9</puntuaciones>
+     <puntuaciones fuente="Epic Games">9.1</puntuaciones>
+     <puntuaciones fuente="GOG">9.1</puntuaciones>
+    <sistemas>
+      <sistema>PC</sistema>
+      <sistema>PlayStation 4</sistema>
+      <sistema>PlayStation 5</sistema>
+       <sistema>Xbox one series x</sistema>
+        <sistema>Xbox one series s</sistema>
+         <sistema>Xbox one s</sistema>
+    </sistemas>
+  </videojuego>
+</videojuegos>

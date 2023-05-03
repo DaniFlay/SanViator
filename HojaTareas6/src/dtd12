@@ -1,0 +1,17 @@
+<!ELEMENT instituto (curso+)>
+<!ELEMENT curso (alumno+)>
+<!ATTLIST curso ciclo (Integracion | DAM | Educacion Infantil | Protesis Dental | Mediacion comunicativa ) #REQUIRED>
+<!ATTLIST curso curso (primero | segundo) primero #REQUIRED>
+<!ELEMENT alumno (nombre, primerApellido, segundoApellido?, telefono*, correo?,listaAsiganturas)>
+<!ATTLIST alumno dni CDATA #REQUIRED>
+<!ELEMENT  nombre #PCDATA>
+<!ELEMENT primerApellido #PCDATA>
+<!ELEMENT segundoApellido #PCDATA>
+<!ELEMENT telefono #PCDATA>
+<!ATTLIST telefono tipo (fijo|movil) movil #REQUIRED>
+<!ELEMENT listaAsignaturas(asignatura+)>
+<!ELEMENT asigantura (nombre, profesor)>
+<!ATTLIST asigantura codigo CDATA #REQUIRED>
+<!ELEMENT profesor(nombre, primerApellido, segundoApellidoProfesor, titulacion)>
+<!ELEMENT segundoApellidoProfesor #PCDATA>
+<!ELEMENT titulacion #PCDATA>

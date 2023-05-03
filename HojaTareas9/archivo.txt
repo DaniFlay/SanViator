@@ -1,0 +1,6 @@
+Tras dos meses desde el lanzamiento de Android 12,
+Google ha anunciado de forma oficial Android 12 Go
+Edition, su versión de sistema operativo optimizada
+para móviles de entrada. Con esta edición Go de 
+Android 12 Google hace una fuerte apuesta por el 
+rendimiento y la autonomía.

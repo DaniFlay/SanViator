@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instituto SYSTEM "instituto.dtd">
+<instituto>
+  <curso ciclo="DAM" curso="primero">
+      <alumno dni="12654622e">
+        <nombre>Juan</nombre>
+        <apellido>Perez</apellido>
+        <segundoApellido>Rodriguez</segundoApellido>
+        <telefono tipo="fijo">654765124</telefono>
+        <correo>juanperezrod67@hotmail.com</correo>
+        <listaAsignaturas>
+          <asignatura codigo="4">
+            <nombre>Programacion</nombre>
+            <profesor>
+              <nombre>Diego</nombre>
+              <primerApellido>Gonzalez</primerApellido>
+              <segundoApellidoProfesor>Alvarez</segundoApellidoProfesor>
+              <titulacion>Informatico</titulacion>
+            </profesor>
+          </asignatura>
+          <asignatura codigo="7">
+            <nombre>Bases de datos</nombre>
+            <profesor>
+              <nombre>Manuel</nombre>
+              <primerApellido>Ramos</primerApellido>
+              <segundoApellidoProfesor>Martin</segundoApellidoProfesor>
+              <titulacion>Informatico</titulacion>
+            </profesor>
+          </asignatura>
+        </listaAsignaturas>
+      </alumno>
+      <alumno dni="17584569p">
+        <nombre>Ramon</nombre>
+        <apellido>Lizano</apellido>
+        <segundoApellido>Ibanez</segundoApellido>
+        <telefono tipo="fijo">658741259</telefono>
+        <correo>ramoncito45@hotmail.com</correo>
+        <listaAsignaturas>
+          <asignatura codigo="1">
+            <nombre>Lenguajes de marcas</nombre>
+            <profesor>
+              <nombre>Pedro</nombre>
+              <primerApellido>Sanchez</primerApellido>
+              <segundoApellidoProfesor>Rajoy</segundoApellidoProfesor>
+              <titulacion>Informatico</titulacion>
+            </profesor>
+          </asignatura>
+          <asignatura codigo="2">
+            <nombre>FOL</nombre>
+            <profesor>
+              <nombre>Mariano</nombre>
+              <primerApellido>Diaz</primerApellido>
+              <segundoApellidoProfesor>Sanchez</segundoApellidoProfesor>
+              <titulacion>Abogado</titulacion>
+            </profesor>
+          </asignatura>
+        </listaAsignaturas>
+      </alumno>
+  </curso>
+</instituto>

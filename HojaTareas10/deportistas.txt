@@ -1,0 +1,8 @@
+Nombre y Apellido	Edad	Peso	Estatura
+Rafael Cajal	12	32	1.56
+Rafael Cajoy	12	10	1.54
+Poliedro Sanchez	45	12	1.45
+Alberto Contador	42	81	1.72
+Daniil Medvedev	27	73	1.95
+Roger Federer	40	56	1.65
+Nick Kyrgios	28	85	1.95
