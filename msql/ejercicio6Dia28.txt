@@ -1,0 +1,4 @@
+a)select *, abs(puntosLocal-puntosVisitante) as diferencia from partido;
+b)select strcmp((select nombre from jugador where idJugador=17),(select nombre from jugador where idEquipo=5));
+c)select strcmp(('%as%'),(select nombre from jugador));
+d)select lower(nombre),lower(nacionalidad),lower(apellidos),upper(nombre),upper(nacionalidad),upper(apellidos) from jugador;

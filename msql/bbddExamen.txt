@@ -1,0 +1,78 @@
+Ejercicio 1: 
+a)insert into edificio (idEdificio,direccion,plantas,telefono) values (10, 'Calle Corta, 76',3,785412578);
+insert into edificio (idEdificio,direccion,plantas,telefono) values (20, 'Calle Larga, 87',3,578425741);
+b)update edificio set plantas =4 where idEdificio=10;
+update edificio set telefono= 541785412 where idEdificio=20;
+c)delete from edificio where idEdificio=10;
+d)create view aulasXedificio as
+select count(*) as nAulas, idEdificio from aula group by idEdificio;
+e)create or replace view apartado_1b as
+select count(*) as nAulas, edificio.* from aula natural join edificio group by edificio.idEdificio order by nAulas desc;
+f)create or replace view apartado_1c_X_Y as
+select * from reserva where idEdificio=1 and idAula=1;
+g)create or replace view apartado_1d as
+select * from usuario where dni in (select idUsuario from(select idUsuario, count(*) as nReservas from reserva group by idUsuario order by nReservas desc)as t1) limit 5;
+h)create or replace view apartado_1e as
+select * from usuario where year(current_date())-year(fechaAlta)>3;
+
+Ejercicio 2:
+a) Una vista es una tabla sin contenido, es virtual, y devuelve los resultados de ejecutar una consulta SQL
+El tiempo de ejecución es menor ya que ya está guardada en la base de datos y ya ha sido compilada
+CREATE VIEW
+DROP VIEW
+SHOW CREATE VIEW
+RENAME TABLE ... TO ...
+SHOW FULL TABLES
+b)Una transacción es un conjunto de sentencias que al ejecutarse forman una unidad lógica
+indivisible. Finaliza con un COMMIT o con un ROLLBACK. La ventaja es que se pueden realizar sentencias 
+de forma segura y poder recuperar los datos, el inconveniente es que el tiempo de ejecución es mayor
+Deben cumplir las 4 propiedades ACID
+c)Las propiedades ACID garantizan que las transacciones se puedan realizar de forma segura. 
+Un SGBD es ACID complaint cuando permite realizar transacciones.
+-Atomicidad: es indivisible, se ejecuta todo o nada
+-Consitencia: después de una transacción la BBDD estará en un estado consitente 
+-Aislamiento: Cada transacción está aislada del resto de transacciones, y el acceso a los datos se 
+hará de forma exclusiva
+-Durabilidad: Los cambios que realiza una transacción sobre la BBDD son permanentes
+d)La diferencia es que en INNER se especifica sobre que campos se hace la comparación, en NATURAL se compara con los campos
+que tienen el mismo nombre, en INNER no se combinan los campos nulos, en NATURAL si. Y el natural no duevuelve los campos 
+duplicados, los campos que tienen el mismo nombre no se duplican, en INNER si ( a no ser que se especifique lo contrario en el SELECT).
+Y la sintaxis se diferencia también, es más corto el NATURAL. 
+Se recomienda usar natural cuando vamos a comparar por campos que tienen el mismo nombre, en el caso de que existan campos con 
+el mismo nombre, pero son cosas distintas, hay que utilizar el INNER para no comparar por esos campos.
+Ejercicio 3:
+a)select * from edificio natural join aula;
+b)select * from edificio join aula on edificio.idEdificio=aula.idedificio;
+c)select * from aula left outer join reserva on aula.idaula=reserva.idaula;
+d)select * from aula natural join aulacerrada;
+e)select * from aulacerrada natural join reserva;
+f)select * from aula right outer join edificio on aula.idedificio=edificio.idedificio;
+
+FUNCIONES:
+SUM()-> sumar -> SUM(field)
+AVG()-> media -> AVG(field)
+MIN()-> el valor mínimo -> MIN(field)
+MAX()-> el valor máximo -> MAX(field)
+COUNT()-> contar -> COUNT(*)
+CONCAT()-> concatenar -> CONCAT(field, field)
+LENGTH()-> longitud del string -> LENGTH(field)
+LOWER()-> lower case -> LOWER(field)
+UPPER()-> upper case -> UPPER(field)
+STRCMP()-> compara 2 strings -> STRCMP(field1, field2)
+TRIM()-> quita los espacios -> TRIM(field)
+RTRIM()-> quita los espacios de la derecha -> RTRIM(field)
+LTRIM()-> quita los espacio de la izquierda -> LTRIM(field)
+SUBSTRING()-> extrae un substring el string introducido -> SUBSTRING (field, start, length)
+SYSDATE()-> fecha y tiempo del sistema -> SYSDATE()
+NOW()-> fecha y tiempo cuando empeiza a ejecutarse -> NOW()
+CURRENT_TIMESTAMP()-> fecha y tiempo de ahora -> CURRENT_TIMESTAMP()
+CURDATE()-> la fecha de ahora -> CURDATE()
+CURTIME()-> el tiempo de ahora -> CURTIME()
+DATE()-> extrae la fecha -> DATE(field)
+DATE_ADD()-> devuelve la fecha cambiada -> DATE_ADD(field, interval 1 second)
+DATE_SUB()-> devuelve la fecha cambiada -> DATE_SUB(field, interval 1 second)
+ABS()-> valor absoluto -> ABS(field)
+SQRT()-> raíz cuadrada -> SQRT(field)
+POWER()-> elevación -> POWER(field, x)
+RAND()-> número al azar 0<=x<1 -> RAND()
+ROUND()-> redondeo del número, a un número de decimales opcionalmente -> ROUND(field,x)

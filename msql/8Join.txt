@@ -1,0 +1,4 @@
+1:
+select clase.*, profesor.nombre,profesor.apellidos from profesor join clase on dni=tutor;
+2:
+select clase.*, profesor.nombre,profesor.apellidos from profesor left join clase on dni=tutor;

@@ -1,0 +1,8 @@
+1:
+select * from (select partido.*,nombre as EquipoLocal from partido,equipo where idEquipo= idEquipoLocal)as tabla1,(select nombre as EquipoVisitante,idPartido  from partido,equipo where idEquipo= idEquipoVisitante)as tabla2 where tabla1.idPartido=tabla2.idPartido;
+2:
+select * from datosjugadorpartido,jugador where idJ=idJugador order by valoracion desc limit 10;
+3:
+select * from datosjugadorpartido, jugador, equipo where idJ=idJugador and equipo.idEquipo=jugador.idEquipo order by valoracion desc limit 10;
+4:
+select jugador.*,equipo.nombre,equipo.localidad,equipo.pais from jugador, equipo where jugador.idEquipo=equipo.idEquipo order by equipo.nombre,equipo.localidad,equipo.pais;

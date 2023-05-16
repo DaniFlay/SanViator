@@ -1,0 +1,14 @@
+-select nombre,apellidos from jugador;
+-select * from jugador;
+-select edad, nombre, apellidos from jugador;
+-select alturaCM, nombre from jugador;
+
+- create index nombreApellido on jugador (nombre,apellidos);
+- create index edadNombreApellido on jugador (edad desc, nombre,apellidos);
+- create index nombreApellidosAltura on jugador (nombre desc,apellidos, alturaCM);
+
+Los índices nos sirven para mejorar el rendimiento de las bases de datos. Pueden llegar a ser muy utiles en el
+caso de que sepamos de antemano las consultas más frecuentes que se vayan a realizar. Si queremos que estas
+consultas salgan de una manera determinada (por ejemplo algún orden específico), pues creamos el índice 
+con las determinadas columnas y ponemos el orden (o las específicaciones que necesitamos) y así a la hora de realizar 
+la consulta no debemos introducir el filtro que hemos introducido a la hora de crear el índice. 

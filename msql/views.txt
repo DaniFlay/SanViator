@@ -1,0 +1,9 @@
+1:
+create 
+view listado_pago_clientes as 
+select concat(cliente.nombre_contacto,' ',cliente.apellido_contacto) 
+as nombreApellido, cliente.telefono, cliente.ciudad, cliente.pais, 
+pago.fecha_pago,
+pago.total, pago.id_transaccion 
+from cliente,pago where cliente.codigo_cliente=pago.codigo_cliente;
+2:

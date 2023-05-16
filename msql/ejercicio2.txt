@@ -1,0 +1,22 @@
+Ejercicio 2: 
+a)
+1)alter table oficina modify direccion varchar(500);
+2)alquiler_ibfk_1
+alquiler_ibfk_2
+alquiler_ibfk_3
+alquiler_ibfk_4
+vehiculo_ibfk_1
+3)alter table vehiculo drop foreign key vehiculo_ibfk_1;
+4)alter table vehiculo add constraint vehiculo_ibfk_1 foreign key (idMarca) references marca(idMarca);
+5)alter table marca rename column pais to paisFundacion;
+6)alter table cliente change domicilio domicilioCompleto varchar(100);
+b)
+1)alter table articulo rename to producto;
+2)alter table producto add id int auto_increment first ;
+3)alter table producto drop primary key;
+4)alter table producto add primary key(id);
+c)
+1)alter table jugador change idJugador idJ int auto_increment; Aunque da error,clumns participating in a foreign key are renamed
+2)alter table jugador drop column edad;
+3)drop datosJugadorPartido;
+4)drop database baloncesto;

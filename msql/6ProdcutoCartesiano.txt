@@ -1,0 +1,14 @@
+1:
+select *,marca,modelo from avion,vuelo where avion=matricula;
+2:
+select *,marca,modelo from avion,vuelo where matricula=avion or avion is null;
+3:
+
+4:
+select dniAsociado, avion,origen,destino,fechaPrevistaSalida, horaPrevistaSalida, nombre, apellidos from billete, persona where dni=dniAsociado;
+5:
+select * from tripulante,persona where tripulante.dni=persona.dni;
+6:
+select * from pasajero,persona where pasajero.dni=persona.dni;
+7.
+select tabla1.*,tabla2.paisDestino,tabla2.ciudadDestino from ((select vuelo.*, pais as paisOrigen,ciudad as ciudadOrigen from aeropuerto,vuelo where origen=abreviatura) as tabla1,(select vuelo.*, pais as paisDestino,ciudad as ciudadDestino from aeropuerto,vuelo where destino=abreviatura)as tabla2) where tabla1.avion=tabla2.avion and tabla1.origen=tabla2.origen and tabla1.destino=tabla2.destino and tabla1.fechaPrevistaSalida=tabla2.fechaPrevistaSalida and tabla1.horaPrevistaSalida=tabla2.horaPrevistaSalida;

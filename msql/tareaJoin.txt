@@ -1,0 +1,8 @@
+1:
+select cliente.* from cliente inner join empleado on codigo_empleado_rep_ventas=codigo_empleado;
+2:
+select cliente.* from cliente inner join empleado on codigo_empleado_rep_ventas=codigo_empleado natural join pago where pago.fecha_pago is null;
+3:
+select nombre, (precio_unidad*cantidad), (precio_unidad*cantidad-(precio_unidad*cantidad*0.18)) from producto natural join(select codigo_producto from(select sum(cantidad*precio_unidad) as suma, codigo_producto from detalle_pedido group by codigo_producto having suma>3000) as tabla1) as tabla2 natural join detalle_pedido;
+4:
+select distinct oficina.* from oficina natural join(select empleado.* from empleado inner join (select * from cliente where ciudad='Fuenlabrada')as tabla1 on tabla1.codigo_empleado_rep_ventas=empleado.codigo_empleado)as tabla2 ;

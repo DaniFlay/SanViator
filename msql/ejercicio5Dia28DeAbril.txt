@@ -1,0 +1,5 @@
+Ejercicio 5:
+a)select *, date_add(fecha,interval 10 day)as fechaSumada from alquiler;
+b)select *, date_add(fecha,interval nDias day)as fechaSumada from alquiler;
+c)select dni, concat(nombre,' ',apellidos)as nombreApellidos from cliente;
+d)select concat(idMarca,'-',pais,'-',tipoMarca) as columna from marca;
