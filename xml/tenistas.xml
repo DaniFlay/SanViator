@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tenistas>
+    <tenista rankingATP="14">
+        <nombre>Rafael Nadal</nombre>
+        <paisOrigen>España</paisOrigen>
+        <puntosATP>2535</puntosATP>
+        <totalGranSlams>22</totalGranSlams>
+    </tenista>
+    <tenista rankingATP="2">
+        <nombre>Carlos Alcaraz</nombre>
+        <paisOrigen>España</paisOrigen>
+        <puntosATP>6770</puntosATP>
+        <totalGranSlams>1</totalGranSlams>
+    </tenista>
+    <tenista rankingATP="1">
+        <nombre>Novak Djokovic</nombre>
+        <paisOrigen>Serbia</paisOrigen>
+        <puntosATP>6775</puntosATP>
+        <totalGranSlams>22</totalGranSlams>
+    </tenista>
+</tenistas>

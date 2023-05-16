@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="153">
+	<datos>
+		<nombre>Equivos San viator</nombre>
+		<direccion>
+			<calle>Paseo Juan Carlos 1</calle>
+			<numero>21</numero>
+			<poblacion>Valladolid</poblacion>
+			<provincia>Valladolid</provincia>
+			<codigopostal>47008</codigopostal>
+			<cif>Q-879966321</cif>
+			<telefono>
+				<fijo>983223344</fijo>
+				<movil>666333222</movil>
+			</telefono>
+			<fecha>
+				<dia>10</dia>
+				<mes>Enero</mes>
+				<año>2022</año>
+			</fecha>
+			<pedido>243</pedido>
+			<formadepago>EFECTIVO</formadepago>
+		</datos>
+		<datoscliente>
+			<numerocliente>129</numerocliente>
+			<nombre>Jose Luis</nombre>
+			<apellidos>Fernández González</apellidos>		
+			<direccionEnvio>
+				<calle>Paseo de Zorrilla</calle>
+				<numerocalle>nº 231</numerocalle>
+				<piso>1º</piso>
+				<letra>Izquierda</letra>
+				<poblacion>Valladolid</poblacion>
+				<provincia>Valladolid</provincia>
+				<codigopostal>47001</codigopostal>
+			</direccionEnvio>
+		</datoscliente>
+		<datosfactura>
+			<producto>
+				<referencia>GrapNvidia3060</referencia>
+				<descripcion>nVidia RTX 3060</descripcion>
+				<cantidad>1</cantidad>
+				<preciounitario moneda="euro">359,95</preciounitario>
+				<iva>21,0</iva>
+				<importe moneda="euro">435,54</importe>
+			</producto>
+			<producto>
+				<referencia>Pi712gen700k</referencia>
+				<descripcion>Intel i7 12700k</descripcion>
+				<cantidad>1</cantidad>
+				<preciounitario moneda="euro">290</preciounitario>
+				<iva>21,0</iva>
+				<importe moneda="euro">359,9</importe>
+			</producto>
+			<producto>
+				<referencia>MED8GBSkill32</referencia>
+				<descripcion>Memoria G.Skill ddr4 3200mhz 8GB</descripcion>
+				<cantidad>4</cantidad>
+				<preciounitario moneda="euro">80</preciounitario>
+				<iva>21,0</iva>
+				<importe moneda="euro">387,2</importe>
+			</producto>
+			<producto>
+				<referencia>SSDSam980c512</referencia>
+				<descripcion>Disco SSD Samsung 980pro 512GB</descripcion>
+				<cantidad>2</cantidad>
+				<preciounitario moneda="euro">3120</preciounitario>
+				<iva>21,0</iva>
+				<importe moneda="euro">290,4</importe>
+			</producto>
+			<pagos>
+				<baseimponible moneda="euro">1329.95</baseimponible>
+				<iva>21%</iva>
+				<cuotaiva moneda="euro">279.28</cuotaiva>
+			</pagos>
+		</datosfactura>
+		<total moneda="euro">1609.24</total>
+	</factura>

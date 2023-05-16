@@ -1,0 +1,496 @@
+Ejercicio 1:
+a)
+Algoritmo sumaDeDosNumeros
+	Leer n1,n2
+	a<-n1+n2
+	Escribir a
+FinAlgoritmo
+b)
+Algoritmo mayorDeLosNumeros
+	Leer n1,n2
+	Si n1<n2 Entonces
+		Escribir n2
+	SiNo
+		Escribir n1
+	Fin Si
+FinAlgoritmo
+c)
+Algoritmo mayorDeLosNumeros
+	Leer n1,n2
+	Si n1=n2 Entonces
+		Escribir "Los números son iguales"
+	SiNo
+		Si n1<n2 Entonces
+			Escribir n2
+		SiNo
+			Escribir n1
+		Fin Si
+	Fin Si
+FinAlgoritmo
+d)
+Algoritmo mayorDeLosNumeros_O_Igual
+	Repetir
+		Leer n1,n2
+	Hasta Que n1=n2
+	Escribir "Son iguales"
+FinAlgoritmo
+e)
+Algoritmo 10NumerosPorTeclado
+	a<-0
+	b<-0
+	Repetir
+		Leer n1
+		a<-n1+a
+		b<-b+1
+	Hasta Que b=10
+	Escribir a
+FinAlgoritmo
+f)
+Algoritmo mensaje
+	Leer n1
+	a<-0
+	Repetir
+		Escribir "Mensaje"
+		a<-a+1
+	Hasta Que a=n1
+FinAlgoritmo
+g)
+
+h)
+Algoritmo mensajeMejorado2
+	Leer n1
+	a<-0
+	Si n1>=3&&n1<=8 Entonces
+		Repetir
+			Escribir "Mensaje"
+			a<-a+1
+		Hasta Que a=n1
+	SiNo
+		Escribir "Error, excribe un número entre 3 y 8"
+	Fin Si
+FinAlgoritmo
+
+Ejercicio2:
+a)
+Algoritmo diasDeLaSemana
+	Leer n1
+		Segun n1 Hacer
+			1:
+				Escribir "Lunes"
+			2:
+				Escribir "Martes"
+			3:
+				Escribir "Miércoles"
+			4:
+				Escribir "Jueves"
+			5:
+				Escribir "Viernes"
+			6:
+				Escribir "Sábado"
+			7:
+				Escribir "Domingo"
+			De Otro Modo:
+				Escribir "Error, introduce un número entre 1 y 7"
+		Fin Segun
+FinAlgoritmo
+b)
+Algoritmo diasDeLaSemana2
+	Escribir "Pulsa 1 para empezar el programa"
+	Leer n1
+	Mientras n1<8&&n1>0 Hacer
+		Escribir "Introduce un número"
+		Leer n1
+		Segun n1 Hacer
+			1:
+				Escribir "Lunes"
+			2:
+				Escribir "Martes"
+			3:
+				Escribir "Miércoles"
+			4:
+				Escribir "Jueves"
+			5:
+				Escribir "Viernes"
+			6:
+				Escribir "Sábado"
+			7:
+				Escribir "Domingo"
+			De Otro Modo:
+				Escribir "Error, introduce un número entre 1 y 7"
+		Fin Segun
+	Fin Mientras
+FinAlgoritmo
+c)
+Algoritmo numerosRomanos
+	Definir a,b,c,n1 Como Entero
+	Leer n1
+	Si n1>=1&&n1<=500 Entonces
+		a<-trunc(n1/100) mod 10
+		b<-trunc(n1/10) mod 10
+		c<-trunc(n1/1) mod 10
+		Segun a Hacer
+			1:
+				Escribir "C" Sin Saltar
+			2:
+				Escribir "CC" Sin Saltar
+			3:  
+				Escribir "CCC" Sin Saltar
+			4:
+				Escribir "CD" Sin Saltar
+			5:
+				Escribir "D" Sin Saltar
+			6:  
+				Escribir "DC" Sin Saltar
+			7:
+				Escribir "DCC" Sin Saltar
+			8:
+				Escribir "DCCC" Sin Saltar
+			9:  
+				Escribir "CM" Sin Saltar
+		Fin Segun
+		Segun b Hacer
+			1:
+				Escribir "X" Sin Saltar
+			2:
+				Escribir "XX" Sin Saltar
+			3:  
+				Escribir "XXX" Sin Saltar
+			4:
+				Escribir "XL" Sin Saltar
+			5:
+				Escribir "L" Sin Saltar
+			6:  
+				Escribir "LX" Sin Saltar
+			7:
+				Escribir "LXX" Sin Saltar
+			8:
+				Escribir "LXXX" Sin Saltar
+			9:  
+				Escribir "XC" Sin Saltar
+		Fin Segun
+		Segun c Hacer
+			1:
+				Escribir "I" 
+			2:
+				Escribir "II"
+			3:  
+				Escribir "III"
+			4:
+				Escribir "IV"
+			5:
+				Escribir "V"
+			6:  
+				Escribir "VI"
+			7:
+				Escribir "VII"
+			8:
+				Escribir "VIII"
+			9:  
+				Escribir "IX"
+		Fin Segun
+	SiNo
+		Escribir "Introduce un número entre 1 y 500"
+	Fin Si
+FinAlgoritmo
+d)
+Algoritmo numerosPares
+	a<-1
+	Mientras a<=50 Hacer
+		Si a%2==0 Entonces
+			Escribir a
+			a<-a+1
+		SiNo
+			a<-a+1
+		Fin Si
+	Fin Mientras
+FinAlgoritmo
+e)
+Funcion resultado <- Division ( n1,n2 )
+	resultado<-n1/n2
+Fin Funcion
+
+Funcion resultado <- Multiplicacion ( n1,n2 )
+	resultado<-n1*n2
+Fin Funcion
+
+Funcion resultado<- Resta ( n1,n2 )
+	resultado<-n1-n2
+Fin Funcion
+
+Funcion resultado <- Suma (  n1, n2 )
+	resultado<-n1+n2
+Fin Funcion
+
+Algoritmo calculadora
+	Escribir "Introduce el primer número"
+	Leer n1
+	Escribir "Introduce el segundo número"
+	Leer n2
+	Escribir "Introduce la operación (1-suma, 2-resta, 3-multiplicación, 4-división)"
+	Leer n3
+	Segun n3 Hacer
+		1:
+			Escribir Suma(n1,n2)
+		2:
+			Escribir Resta(n1,n2)
+		3:
+			Escribir Multiplicacion(n1,n2)
+		4:
+			Escribir Division(n1,n2)
+		De Otro Modo:
+			Escribir "El valor introducido es incorrecto"
+	Fin Segun
+FinAlgoritmo
+f)
+Algoritmo fEjercicio2
+	n2<-1
+	Escribir "Escribe un número"
+	Leer n1
+	Para a<-1 Hasta 9 Hacer
+		si n1%a==0 Entonces
+			cont<-cont+1
+		FinSi
+	Fin Para
+	si cont==2 Entonces
+		Escribir "es primo"
+	SiNo
+		Escribir "no es primo"
+	FinSi
+	Para a<-n1 Hasta 1 Hacer
+		n2<-n2*a
+	Fin Para
+	Escribir "el factorial es ",n2
+	Para a<-1 Hasta 9 Hacer
+		Escribir a,"*",n1,"=",a*n1 
+	Fin Para
+FinAlgoritmo
+
+Ejercicio 3:
+a)
+Algoritmo listaNotas
+	Escribir "Introduce el número de notas"
+	Leer n1
+	nota<-0
+	Dimension lista[n1]
+	Para a<-1 Hasta n1 Hacer
+		Escribir "Introduce tu nota"
+		Leer nota
+		lista[a]<-nota
+	Fin Para
+	Para a<-1 Hasta n1 Hacer
+		nota<-lista[a]+nota
+	Fin Para
+	Escribir nota/n1
+FinAlgoritmo
+b)
+Funcion existe <- buscarDNI ( DNI )
+	Dimension lista[10000]
+	Para a<-1 Hasta 10000 Hacer
+		Si lista[a]==DNI Entonces
+			bool<-Verdadero
+		Fin Si
+	Fin Para
+	Si bool==Verdadero Entonces
+		Escribir "El DNI introducido se ha encontrado"
+	SiNo
+		Escribir "El DNI introducido no se ha encontrado"
+	Fin Si
+Fin Funcion
+
+Algoritmo listaDNI
+	Definir DNI Como Caracter
+	Escribir "Introcduce tu DNI"
+	Leer DNI
+	Escribir buscarDNI(DNI)
+FinAlgoritmo
+
+Ejercicio 4:
+En este programa lo que se hace es pedirle 2 numeros al usuario, uno es con el que se hacen los calculos(A), y el otro es un contador(N)
+Si el número introducido es par, se hace la suma de este numero consigo mismo N veces, y al final se muestran 2 resultados, resultado1 que es 0 y resultado2 que es la suma
+En el caso de que el número introducido sea impar tanto el resultado1 como el resultado2 son 0
+
+Algoritmo parImpar
+	Leer N
+	Resultado1<-0
+	Resultado2<-0
+	Leer A
+	Repetir
+		Si A MOD 2==0 Entonces
+			Resultado2= Resultado2+A
+		SiNo
+			Resultado1= Resultado1*A
+		Fin Si
+	Hasta Que N=0
+	Escribir Resultado1, Resultado2
+FinAlgoritmo
+
+Ejercicio 5: 
+En este programa se pide un número de días y el programa calcula cuantos años, meses y días son los días introducidos
+
+Algoritmo diasMesesAños
+	a=0
+	m=0
+	d=0
+	Leer variable1
+	d=variable1
+	Mientras d>365 Hacer
+		a=a+1
+		d=d-365
+	Fin Mientras
+	Mientras d>30 Hacer
+		m=m+1
+		d=d-30
+	Fin Mientras
+	Escribir a,m,d
+FinAlgoritmo
+
+Ejercicio 6: 
+Funcion resultado <- Raíz ( n1,n2 )
+	resultado= n1^1/n2
+Fin Funcion
+
+Funcion resultado <- Potencia ( n1,n2 )
+	resultado=n1^n2
+Fin Funcion
+
+Funcion resultado <- Division ( n1,n2 )
+	resultado<-n1/n2
+Fin Funcion
+
+Funcion resultado <- Multiplicacion ( n1,n2 )
+	resultado<-n1*n2
+Fin Funcion
+
+Funcion resultado<- Resta ( n1,n2 )
+	resultado<-n1-n2
+Fin Funcion
+
+Funcion resultado <- Suma (  n1, n2 )
+	resultado<-n1+n2
+Fin Funcion
+
+Algoritmo calculadoraMejorada
+	Definir variable Como Caracter
+	variable<-"S"
+	Mientras variable=="S" Hacer
+		Escribir "Introduce el primer número"
+		Leer n1
+		Escribir "Introduce el segundo número"
+		Leer n2
+		Si n1<1|n1>20|n2<1|n2>20 Entonces
+			Escribir "los valores deben estar entre 1 y 20"
+			variable<-"N"
+		SiNo
+			Escribir "Introduce la operación (1-suma, 2-resta, 3-multiplicación, 4-división, 5-potencia, 6-raíz)"
+			Leer n3
+			Segun n3 Hacer
+				1:
+					Escribir Suma(n1,n2)
+					bool<-Verdadero
+				2:
+					Escribir Resta(n1,n2)
+					bool<-Verdadero
+				3:
+					Escribir Multiplicacion(n1,n2)
+					bool<-Verdadero
+				4:
+					Escribir Division(n1,n2)
+					bool<-Verdadero
+				5:
+					Si n2>3 Entonces
+						Escribir "El valor de n2 para esta operación debe estar entre 1 y 3"
+						variable<-"N"
+					SiNo
+						Escribir Potencia(n1,n2)
+						bool<-Verdadero
+					Fin Si
+				6:
+					Si n2>3 Entonces
+						Escribir "El valor de n2 para esta operación debe estar entre 1 y 3"
+						variable<-"N"
+					SiNo
+						Escribir Raíz(n1,n2)
+						bool<-Verdadero
+					Fin Si
+				De Otro Modo:
+					Escribir "El valor introducido es incorrecto"
+					variable<-"N"
+			Fin Segun
+		Fin Si
+		Si bool==Verdadero Entonces
+			Escribir "Desea realizar otra operación? (Pulse S para si, y N para no)"
+			Leer respuesta
+			Si respuesta<>"S"&&respuesta<>"N"&&respuesta<>"s"&&respuesta<>"n" Entonces
+				Mientras respuesta<>"S"&&respuesta<>"N"&&respuesta<>"s"&&respuesta<>"n" Hacer
+					Escribir "Desea realizar otra operación? (Pulse S para si, y N para no)"
+					Leer respuesta
+				Fin Mientras
+			SiNo
+				Si respuesta=="S"||respuesta=="s" Entonces
+					variable<-"S"
+				SiNo
+					variable<-"N"
+					Escribir "Gracias por utilziar el programa"
+				Fin Si
+			Fin Si
+	Fin Si
+	Fin Mientras
+FinAlgoritmo
+
+7)
+Funcion resultado<- numeroPrimo (n1)
+	contador<-0
+	Para a<-1 Hasta n1 Con Paso 1 Hacer
+		Para b<-1 Hasta a Con Paso 1 Hacer
+			Si a%b==0 Entonces
+				contador<-contador+1
+			Fin Si
+		Fin Para
+		Si contador==2 Entonces
+			resultado<-a
+		Fin Si
+		contador<-0
+	Fin Para
+FinFuncion
+
+Algoritmo numeroPrimos
+	Escribir "Introduce un número"
+	Leer n1
+	m<-0
+	Si n1<=100&&n1>=2 Entonces
+		Para a<-1 hasta n1 Con Paso 1 Hacer
+			Si m<>numeroPrimo(a) Entonces
+				m<-numeroPrimo(a)
+				Escribir m
+			Fin Si
+		Fin Para
+	SiNo
+		Escribir "El número debe estar entre 2 y 100"
+	Fin Si
+FinAlgoritmo
+
+8)
+Funcion resultado<- numeroMayor (n1,n2,n3)
+	Si n1>=n2&&n1>=n3 Entonces
+		resultado<-n1
+	SiNo
+		Si n2>=n1&&n2>=n3 Entonces
+			resultado<-n2
+		SiNo
+			Si n3>=n1&&n3>=n2 Entonces
+				resultado<-n3
+			Fin Si
+		Fin Si
+	Fin Si
+FinFuncion
+
+Algoritmo numeroMasGrande
+	Escribir "Introduce el primer número"
+	Leer n1
+	Escribir "Introdcue el segundo número"
+	Leer n2
+	Escribir "Introduce el tercer número"
+	Leer n3
+	Escribir "El número mas grande es: ", numeroMayor(n1,n2,n3)
+FinAlgoritmo
+

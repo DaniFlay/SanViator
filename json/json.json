@@ -1,0 +1,38 @@
+{
+    "pintores":[{
+        "nombre":"Adolf Hitler",
+        "lugar":"Austria",
+        "vivo":false,
+        "anyo":1899,
+        "cuadros":[
+            {"titulo":"Mein Kampf",
+        "anyo":1920, "url":"brah"},
+        {"titulo":"Third Reich",
+    "anyo":1930,"url":"brah"},
+    {"titulo":"Caida del muro de Berlin","anyo":1957,"url":"brah"}
+    ]},
+    {
+        "nombre":"Salvador Dali",
+        "lugar":"Italia",
+        "vivo":false,
+        "anyo":1754,
+        "cuadros":[
+            {"titulo":"Guernica",
+        "anyo":1845, "url":"brah"},
+        {"titulo":"El grito",
+    "anyo":1857,"url":"brah"},
+    {"titulo":"Anabell","anyo":1794,"url":"brah"}
+    ]},
+    {
+    "nombre":"Claude Monet",
+        "lugar":"Francia",
+        "vivo":false,
+        "anyo":1745,
+        "cuadros":[
+            {"titulo":"Cocina",
+        "anyo":1751, "url":"brah"},
+        {"titulo":"Cuarto",
+    "anyo":1845,"url":"brah"},
+    {"titulo":"Colon","anyo":1784,"url":"brah"}]
+    }]
+}

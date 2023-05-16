@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ciudades>
+    <ciudad>
+        <nombre>Valladolid</nombre>
+        <habitantes>298000</habitantes>
+        <alcalde partido="PSOE">Oscar Puente</alcalde>
+        <genticilio>vallisoletano</genticilio>
+        <comunidadAutonoma>Castilla y Leon</comunidadAutonoma>
+    </ciudad>
+    <ciudad>
+        <nombre>Santander</nombre>
+        <habitantes>172044</habitantes>
+        <alcalde partido="PP">Gema Igual Ortiz</alcalde>
+        <genticilio>santanderino</genticilio>
+        <comunidadAutonoma>Cantabria</comunidadAutonoma>
+    </ciudad>
+    <ciudad>
+        <nombre>Gijón</nombre>
+        <habitantes>271843</habitantes>
+        <alcalde partido="PSOE">Ana González</alcalde>
+        <genticilio>gijones</genticilio>
+        <comunidadAutonoma>Principado de Asturias</comunidadAutonoma>
+    </ciudad>
+    <ciudad>
+        <nombre>Madrid</nombre>
+        <habitantes>800000</habitantes>
+        <alcalde partido="PP">Isabel Diaz Ayuso</alcalde>
+        <genticilio>madrileño</genticilio>
+        <comunidadAutonoma>Madrid</comunidadAutonoma>
+    </ciudad>
+    <ciudad>
+        <nombre>Barcelona</nombre>
+        <habitantes>750000</habitantes>
+        <alcalde partido="Barcelona en Comu">Ada Colau</alcalde>
+        <genticilio>barcelones</genticilio>
+        <comunidadAutonoma>Cataluña</comunidadAutonoma>
+    </ciudad>
+</ciudades>

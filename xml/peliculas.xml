@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<peliculas>
+    <pelicula>
+        <titulo>5 Flights Up</titulo>
+        <tituloOriginal>5 Flights Up</tituloOriginal>
+        <puntuacion>6.0</puntuacion>
+        <anyo>2014</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Five Square Meters</titulo>
+        <tituloOriginal>Cinco metros cuadrados</tituloOriginal>
+        <puntuacion>5.9</puntuacion>
+        <anyo>2011</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>6 Years</titulo>
+        <tituloOriginal>6 Years</tituloOriginal>
+        <puntuacion>5.4</puntuacion>
+        <anyo>2015</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>7 Years</titulo>
+        <tituloOriginal>7 años</tituloOriginal>
+        <puntuacion>6.4</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>12 Angry Men</titulo>
+        <tituloOriginal>12 Angry Men</tituloOriginal>
+        <puntuacion>8.5</puntuacion>
+        <anyo>1957</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>21 Jump Street</titulo>
+        <tituloOriginal>21 Jump Street</tituloOriginal>
+        <puntuacion>6.9</puntuacion>
+        <anyo>2012</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>47 Ronin</titulo>
+        <tituloOriginal>47 Ronin</tituloOriginal>
+        <puntuacion>6.1</puntuacion>
+        <anyo>2013</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>100 Meters</titulo>
+        <tituloOriginal>100 metros</tituloOriginal>
+        <puntuacion>7.4</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>One Hundred and One Dalmatians</titulo>
+        <tituloOriginal>One Hundred and One Dalmatians</tituloOriginal>
+        <puntuacion>7.2</puntuacion>
+        <anyo>1961</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>(500) Days of Summer</titulo>
+        <tituloOriginal>(500) Days of Summer</tituloOriginal>
+        <puntuacion>7.3</puntuacion>
+        <anyo>2009</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>1917</titulo>
+        <tituloOriginal>1917</tituloOriginal>
+        <puntuacion>8.0</puntuacion>
+        <anyo>2019</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>A Bad Idea Gone Wrong</titulo>
+        <tituloOriginal>A Bad Idea Gone Wrong</tituloOriginal>
+        <puntuacion>6.7</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>s Life</titulo>
+        <tituloOriginal>s Life</tituloOriginal>
+        <puntuacion>7.0</puntuacion>
+        <anyo>1998</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Nothing in Return</titulo>
+        <tituloOriginal>A cambio de nada</tituloOriginal>
+        <puntuacion>6.2</puntuacion>
+        <anyo>2015</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>A Fish Called Wanda</titulo>
+        <tituloOriginal>A Fish Called Wanda</tituloOriginal>
+        <puntuacion>7.2</puntuacion>
+        <anyo>1988</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>A Fistful of Dollars</titulo>
+        <tituloOriginal>Per un pugno di dollari</tituloOriginal>
+        <puntuacion>7.9</puntuacion>
+        <anyo>1964</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>A Street Cat Named Bob</titulo>
+        <tituloOriginal>A Street Cat Named Bob</tituloOriginal>
+        <puntuacion>7.9</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>A Star Is Born</titulo>
+        <tituloOriginal>A Star Is Born</tituloOriginal>
+        <puntuacion>7.5</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Open Your Eyes</titulo>
+        <tituloOriginal>Abre los ojos</tituloOriginal>
+        <puntuacion>7.5</puntuacion>
+        <anyo>1997</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Absolutely Anything</titulo>
+        <tituloOriginal>Absolutely Anything</tituloOriginal>
+        <puntuacion>5.8</puntuacion>
+        <anyo>2015</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>After Hours</titulo>
+        <tituloOriginal>After Hours</tituloOriginal>
+        <puntuacion>7.5</puntuacion>
+        <anyo>1985</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Aladdin</titulo>
+        <tituloOriginal>Aladdin</tituloOriginal>
+        <puntuacion>7.6</puntuacion>
+        <anyo>1992</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Aladdin</titulo>
+        <tituloOriginal>Aladdin</tituloOriginal>
+        <puntuacion>7.1</puntuacion>
+        <anyo>2019</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Something Huge</titulo>
+        <tituloOriginal>Algo muy gordo</tituloOriginal>
+        <puntuacion>3.9</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Alice in Wonderland</titulo>
+        <tituloOriginal>Alice in Wonderland</tituloOriginal>
+        <puntuacion>7.2</puntuacion>
+        <anyo>1951</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Alien</titulo>
+        <tituloOriginal>Alien</tituloOriginal>
+        <puntuacion>8.1</puntuacion>
+        <anyo>1979</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Aliens</titulo>
+        <tituloOriginal>Aliens</tituloOriginal>
+        <puntuacion>7.9</puntuacion>
+        <anyo>1986</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Amadeus</titulo>
+        <tituloOriginal>Amadeus</tituloOriginal>
+        <puntuacion>8.0</puntuacion>
+        <anyo>1984</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Dawn Breaks, Which Is No Small Thing</titulo>
+        <tituloOriginal>Amanece, que no es poco</tituloOriginal>
+        <puntuacion>7.1</puntuacion>
+        <anyo>1989</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>American Hustle</titulo>
+        <tituloOriginal>American Hustle</tituloOriginal>
+        <puntuacion>6.8</puntuacion>
+        <anyo>2013</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>American Psycho</titulo>
+        <tituloOriginal>American Psycho</tituloOriginal>
+        <puntuacion>7.4</puntuacion>
+        <anyo>2000</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>American Sniper</titulo>
+        <tituloOriginal>American Sniper</tituloOriginal>
+        <puntuacion>7.4</puntuacion>
+        <anyo>2014</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>An Affair to Remember</titulo>
+        <tituloOriginal>An Affair to Remember</tituloOriginal>
+        <puntuacion>7.4</puntuacion>
+        <anyo>1957</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>An Education</titulo>
+        <tituloOriginal>An Education</tituloOriginal>
+        <puntuacion>7.0</puntuacion>
+        <anyo>2009</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Anastasia</titulo>
+        <tituloOriginal>Anastasia</tituloOriginal>
+        <puntuacion>7.6</puntuacion>
+        <anyo>1997</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>And Then There Were None</titulo>
+        <tituloOriginal>And Then There Were None</tituloOriginal>
+        <puntuacion>7.0</puntuacion>
+        <anyo>1945</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Ant-Man</titulo>
+        <tituloOriginal>Ant-Man</tituloOriginal>
+        <puntuacion>7.1</puntuacion>
+        <anyo>2015</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Ant-Man and the Wasp</titulo>
+        <tituloOriginal>Ant-Man and the Wasp</tituloOriginal>
+        <puntuacion>7.0</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Antz</titulo>
+        <tituloOriginal>Antz</tituloOriginal>
+        <puntuacion>6.1</puntuacion>
+        <anyo>1998</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Apollo 13</titulo>
+        <tituloOriginal>Apollo 13</tituloOriginal>
+        <puntuacion>7.4</puntuacion>
+        <anyo>1995</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Armageddon</titulo>
+        <tituloOriginal>Armageddon</tituloOriginal>
+        <puntuacion>6.8</puntuacion>
+        <anyo>1998</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Arrival</titulo>
+        <tituloOriginal>Arrival</tituloOriginal>
+        <puntuacion>7.6</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Attack the Block</titulo>
+        <tituloOriginal>Attack the Block</tituloOriginal>
+        <puntuacion>6.4</puntuacion>
+        <anyo>2011</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Avatar</titulo>
+        <tituloOriginal>Avatar</tituloOriginal>
+        <puntuacion>7.5</puntuacion>
+        <anyo>2009</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Avengers: Endgame</titulo>
+        <tituloOriginal>Avengers: Endgame</tituloOriginal>
+        <puntuacion>8.3</puntuacion>
+        <anyo>2019</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Avengers: Infinity War</titulo>
+        <tituloOriginal>Avengers: Infinity War</tituloOriginal>
+        <puntuacion>8.3</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Babel</titulo>
+        <tituloOriginal>Babel</tituloOriginal>
+        <puntuacion>7.2</puntuacion>
+        <anyo>2006</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Baby Driver</titulo>
+        <tituloOriginal>Baby Driver</tituloOriginal>
+        <puntuacion>7.5</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Bad Match</titulo>
+        <tituloOriginal>Bad Match</tituloOriginal>
+        <puntuacion>5.6</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Bad Times at the El Royale</titulo>
+        <tituloOriginal>Bad Times at the El Royale</tituloOriginal>
+        <puntuacion>6.8</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Bad Words</titulo>
+        <tituloOriginal>Bad Words</tituloOriginal>
+        <puntuacion>6.4</puntuacion>
+        <anyo>2013</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Baked in Brooklyn</titulo>
+        <tituloOriginal>Baked in Brooklyn</tituloOriginal>
+        <puntuacion>5.2</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Bambi</titulo>
+        <tituloOriginal>Bambi</tituloOriginal>
+        <puntuacion>7.0</puntuacion>
+        <anyo>1942</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Batman v Superman: Dawn of Justice</titulo>
+        <tituloOriginal>Batman v Superman: Dawn of Justice</tituloOriginal>
+        <puntuacion>5.9</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Beauty and the Beast</titulo>
+        <tituloOriginal>Beauty and the Beast</tituloOriginal>
+        <puntuacion>7.7</puntuacion>
+        <anyo>1991</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Beauty and the Beast</titulo>
+        <tituloOriginal>Beauty and the Beast</tituloOriginal>
+        <puntuacion>7.7</puntuacion>
+        <anyo>1991</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>s 2nd</titulo>
+        <tituloOriginal>s 2nd</tituloOriginal>
+        <puntuacion>5.5</puntuacion>
+        <anyo>1993</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Beethoven</titulo>
+        <tituloOriginal>Beethoven</tituloOriginal>
+        <puntuacion>5.8</puntuacion>
+        <anyo>1992</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Ben-Hur</titulo>
+        <tituloOriginal>Ben-Hur</tituloOriginal>
+        <puntuacion>5.7</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Bereavement</titulo>
+        <tituloOriginal>Bereavement</tituloOriginal>
+        <puntuacion>5.2</puntuacion>
+        <anyo>2010</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Berlin Syndrome</titulo>
+        <tituloOriginal>Berlin Syndrome</tituloOriginal>
+        <puntuacion>6.0</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Benvenuti al Sud</titulo>
+        <tituloOriginal>Benvenuti al sud</tituloOriginal>
+        <puntuacion>6.7</puntuacion>
+        <anyo>2010</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Big Hero 6</titulo>
+        <tituloOriginal>Big Hero 6</tituloOriginal>
+        <puntuacion>7.8</puntuacion>
+        <anyo>2014</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Birdman</titulo>
+        <tituloOriginal>Birdman</tituloOriginal>
+        <puntuacion>4.0</puntuacion>
+        <anyo>2014</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Biutiful</titulo>
+        <tituloOriginal>Biutiful</tituloOriginal>
+        <puntuacion>7.3</puntuacion>
+        <anyo>2010</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Black Panther</titulo>
+        <tituloOriginal>Black Panther</tituloOriginal>
+        <puntuacion>7.4</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>BlacKkKlansman</titulo>
+        <tituloOriginal>BlacKkKlansman</tituloOriginal>
+        <puntuacion>7.6</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Blade Runner</titulo>
+        <tituloOriginal>Blade Runner</tituloOriginal>
+        <puntuacion>7.9</puntuacion>
+        <anyo>1982</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Bohemian Rhapsody</titulo>
+        <tituloOriginal>Bohemian Rhapsody</tituloOriginal>
+        <puntuacion>8.0</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Bolt</titulo>
+        <tituloOriginal>Bolt</tituloOriginal>
+        <puntuacion>6.5</puntuacion>
+        <anyo>2008</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>s Status</titulo>
+        <tituloOriginal>s Status</tituloOriginal>
+        <puntuacion>6.2</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>s Dracula</titulo>
+        <tituloOriginal>s Dracula</tituloOriginal>
+        <puntuacion>7.4</puntuacion>
+        <anyo>1992</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Brave</titulo>
+        <tituloOriginal>Brave</tituloOriginal>
+        <puntuacion>7.0</puntuacion>
+        <anyo>2012</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Braveheart</titulo>
+        <tituloOriginal>Braveheart</tituloOriginal>
+        <puntuacion>7.9</puntuacion>
+        <anyo>1995</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Brawl in Cell Block 99</titulo>
+        <tituloOriginal>Brawl in Cell Block 99</tituloOriginal>
+        <puntuacion>7.0</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Brightburn</titulo>
+        <tituloOriginal>Brightburn</tituloOriginal>
+        <puntuacion>6.1</puntuacion>
+        <anyo>2019</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Brimstone</titulo>
+        <tituloOriginal>Brimstone</tituloOriginal>
+        <puntuacion>7.1</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Brooklyn</titulo>
+        <tituloOriginal>Brooklyn</tituloOriginal>
+        <puntuacion>7.3</puntuacion>
+        <anyo>2015</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Café Society</titulo>
+        <tituloOriginal>Café Society</tituloOriginal>
+        <puntuacion>6.5</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Call Me by Your Name</titulo>
+        <tituloOriginal>Call Me by Your Name</tituloOriginal>
+        <puntuacion>8.3</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Cape Fear</titulo>
+        <tituloOriginal>Cape Fear</tituloOriginal>
+        <puntuacion>7.3</puntuacion>
+        <anyo>1991</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Captain America: Civil War</titulo>
+        <tituloOriginal>Captain America: Civil War</tituloOriginal>
+        <puntuacion>7.4</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Captain America: The First Avenger</titulo>
+        <tituloOriginal>Captain America: The First Avenger</tituloOriginal>
+        <puntuacion>7.0</puntuacion>
+        <anyo>2011</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Captain America: The Winter Soldier</titulo>
+        <tituloOriginal>Captain America: The Winter Soldier</tituloOriginal>
+        <puntuacion>7.7</puntuacion>
+        <anyo>2014</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Captain Fantastic</titulo>
+        <tituloOriginal>Captain Fantastic</tituloOriginal>
+        <puntuacion>7.9</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Captain Marvel</titulo>
+        <tituloOriginal>Captain Marvel</tituloOriginal>
+        <puntuacion>6.9</puntuacion>
+        <anyo>2019</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Carol</titulo>
+        <tituloOriginal>Carol</tituloOriginal>
+        <puntuacion>7.5</puntuacion>
+        <anyo>2015</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Cars</titulo>
+        <tituloOriginal>Cars</tituloOriginal>
+        <puntuacion>6.9</puntuacion>
+        <anyo>2006</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Cars 2</titulo>
+        <tituloOriginal>Cars 2</tituloOriginal>
+        <puntuacion>6.0</puntuacion>
+        <anyo>2011</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Cars 3</titulo>
+        <tituloOriginal>Cars 3</tituloOriginal>
+        <puntuacion>6.9</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Casino</titulo>
+        <tituloOriginal>Casino</tituloOriginal>
+        <puntuacion>8.0</puntuacion>
+        <anyo>1995</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Cast Away</titulo>
+        <tituloOriginal>Cast Away</tituloOriginal>
+        <puntuacion>7.7</puntuacion>
+        <anyo>2000</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Catch Me If You Can</titulo>
+        <tituloOriginal>Catch Me If You Can</tituloOriginal>
+        <puntuacion>7.9</puntuacion>
+        <anyo>2002</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Central Intelligence</titulo>
+        <tituloOriginal>Central Intelligence</tituloOriginal>
+        <puntuacion>6.4</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Chef</titulo>
+        <tituloOriginal>Chef</tituloOriginal>
+        <puntuacion>7.1</puntuacion>
+        <anyo>2014</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Chicken Little</titulo>
+        <tituloOriginal>Chicken Little</tituloOriginal>
+        <puntuacion>5.9</puntuacion>
+        <anyo>2005</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>s Play</titulo>
+        <tituloOriginal>s Play</tituloOriginal>
+        <puntuacion>6.0</puntuacion>
+        <anyo>2019</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Chinese Puzzle</titulo>
+        <tituloOriginal>Casse-Tête Chinois</tituloOriginal>
+        <puntuacion>6.6</puntuacion>
+        <anyo>2013</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Christopher Robin</titulo>
+        <tituloOriginal>Christopher Robin</tituloOriginal>
+        <puntuacion>7.3</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Churchill</titulo>
+        <tituloOriginal>Churchill</tituloOriginal>
+        <puntuacion>6.2</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>To Steal from a Thief</titulo>
+        <tituloOriginal>Cien años de perdón</tituloOriginal>
+        <puntuacion>6.2</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Cinderella</titulo>
+        <tituloOriginal>Cinderella</tituloOriginal>
+        <puntuacion>6.8</puntuacion>
+        <anyo>2015</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Cinderella</titulo>
+        <tituloOriginal>Cinderella</tituloOriginal>
+        <puntuacion>6.7</puntuacion>
+        <anyo>2021</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Citizen Kane</titulo>
+        <tituloOriginal>Citizen Kane</tituloOriginal>
+        <puntuacion>8.0</puntuacion>
+        <anyo>1941</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Click</titulo>
+        <tituloOriginal>Click</tituloOriginal>
+        <puntuacion>6.2</puntuacion>
+        <anyo>2006</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Close Encounters of the Third Kind</titulo>
+        <tituloOriginal>Close Encounters of the Third Kind</tituloOriginal>
+        <puntuacion>7.4</puntuacion>
+        <anyo>1977</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Coco</titulo>
+        <tituloOriginal>Coco</tituloOriginal>
+        <puntuacion>8.2</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Colette</titulo>
+        <tituloOriginal>Colette</tituloOriginal>
+        <puntuacion>7.0</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Collateral Beauty</titulo>
+        <tituloOriginal>Collateral Beauty</tituloOriginal>
+        <puntuacion>7.3</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Colossal</titulo>
+        <tituloOriginal>Colossal</tituloOriginal>
+        <puntuacion>6.3</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Come to Daddy</titulo>
+        <tituloOriginal>Come to Daddy</tituloOriginal>
+        <puntuacion>5.9</puntuacion>
+        <anyo>2019</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Contratiempo</titulo>
+        <tituloOriginal>Contratiempo</tituloOriginal>
+        <puntuacion>0.0</puntuacion>
+        <anyo>2003</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Copenhagen</titulo>
+        <tituloOriginal>Copenhagen</tituloOriginal>
+        <puntuacion>6.8</puntuacion>
+        <anyo>2014</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Corpse Bride</titulo>
+        <tituloOriginal>Corpse Bride</tituloOriginal>
+        <puntuacion>7.5</puntuacion>
+        <anyo>2005</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Coyote Ugly</titulo>
+        <tituloOriginal>Coyote Ugly</tituloOriginal>
+        <puntuacion>6.3</puntuacion>
+        <anyo>2000</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Crash Pad</titulo>
+        <tituloOriginal>Crash Pad</tituloOriginal>
+        <puntuacion>5.8</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Crazy Rich Asians</titulo>
+        <tituloOriginal>Crazy Rich Asians</tituloOriginal>
+        <puntuacion>7.1</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Creed</titulo>
+        <tituloOriginal>Creed</tituloOriginal>
+        <puntuacion>7.4</puntuacion>
+        <anyo>2015</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Creep</titulo>
+        <tituloOriginal>Creep</tituloOriginal>
+        <puntuacion>6.4</puntuacion>
+        <anyo>2014</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Cruella</titulo>
+        <tituloOriginal>Cruella</tituloOriginal>
+        <puntuacion>8.2</puntuacion>
+        <anyo>2021</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Cube 2: Hypercube</titulo>
+        <tituloOriginal>Cube 2: Hypercube</tituloOriginal>
+        <puntuacion>5.5</puntuacion>
+        <anyo>2002</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Cube</titulo>
+        <tituloOriginal>Cube</tituloOriginal>
+        <puntuacion>6.8</puntuacion>
+        <anyo>1997</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Cube Zero</titulo>
+        <tituloOriginal>Cube Zero</tituloOriginal>
+        <puntuacion>5.7</puntuacion>
+        <anyo>2004</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Dawn of the Dead</titulo>
+        <tituloOriginal>Dawn of the Dead</tituloOriginal>
+        <puntuacion>7.0</puntuacion>
+        <anyo>2004</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Deadpool 2</titulo>
+        <tituloOriginal>Deadpool 2</tituloOriginal>
+        <puntuacion>7.5</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Deadpool</titulo>
+        <tituloOriginal>Deadpool</tituloOriginal>
+        <puntuacion>7.6</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Dear Dictator</titulo>
+        <tituloOriginal>Dear Dictator</tituloOriginal>
+        <puntuacion>5.6</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Death Proof</titulo>
+        <tituloOriginal>Death Proof</tituloOriginal>
+        <puntuacion>6.8</puntuacion>
+        <anyo>2007</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Definitely Maybe</titulo>
+        <tituloOriginal>Definitivt kanskje</tituloOriginal>
+        <puntuacion>0.0</puntuacion>
+        <anyo>2020</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Demolition Man</titulo>
+        <tituloOriginal>Demolition Man</tituloOriginal>
+        <puntuacion>6.6</puntuacion>
+        <anyo>1993</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Demolition</titulo>
+        <tituloOriginal>Demolition</tituloOriginal>
+        <puntuacion>6.7</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Dismissal</titulo>
+        <tituloOriginal>Despido procedente</tituloOriginal>
+        <puntuacion>5.1</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Destination Wedding</titulo>
+        <tituloOriginal>Destination Wedding</tituloOriginal>
+        <puntuacion>5.7</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Dial M for Murder</titulo>
+        <tituloOriginal>Dial M for Murder</tituloOriginal>
+        <puntuacion>8.0</puntuacion>
+        <anyo>1954</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Die Hard 2</titulo>
+        <tituloOriginal>Die Hard 2</tituloOriginal>
+        <puntuacion>6.9</puntuacion>
+        <anyo>1990</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Die Hard: With a Vengeance</titulo>
+        <tituloOriginal>Die Hard: With a Vengeance</tituloOriginal>
+        <puntuacion>7.2</puntuacion>
+        <anyo>1995</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Die Hard</titulo>
+        <tituloOriginal>Die Hard</tituloOriginal>
+        <puntuacion>7.7</puntuacion>
+        <anyo>1988</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Extreme Dinosaurs</titulo>
+        <tituloOriginal>Extreme Dinosaurs</tituloOriginal>
+        <puntuacion>0.0</puntuacion>
+        <anyo>2000</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Serial (Bad) Weddings 2</titulo>
+        <tituloOriginal>on a encore fait au Bon Dieu ?</tituloOriginal>
+        <puntuacion>5.9</puntuacion>
+        <anyo>2019</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Django Unchained</titulo>
+        <tituloOriginal>Django Unchained</tituloOriginal>
+        <puntuacion>8.1</puntuacion>
+        <anyo>2012</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Doctor Strange</titulo>
+        <tituloOriginal>Doctor Strange</tituloOriginal>
+        <puntuacion>7.4</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Dog Day Afternoon</titulo>
+        <tituloOriginal>Dog Day Afternoon</tituloOriginal>
+        <puntuacion>7.8</puntuacion>
+        <anyo>1975</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>t Hang Up</titulo>
+        <tituloOriginal>t Hang Up</tituloOriginal>
+        <puntuacion>6.1</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Dragon Ball Super: Broly</titulo>
+        <tituloOriginal>ドラゴンボール超スーパー ブロリー</tituloOriginal>
+        <puntuacion>7.8</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Drone</titulo>
+        <tituloOriginal>Drone</tituloOriginal>
+        <puntuacion>5.4</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Due Date</titulo>
+        <tituloOriginal>Due Date</tituloOriginal>
+        <puntuacion>6.3</puntuacion>
+        <anyo>2010</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Duel</titulo>
+        <tituloOriginal>Duel</tituloOriginal>
+        <puntuacion>7.4</puntuacion>
+        <anyo>1971</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Dumbo</titulo>
+        <tituloOriginal>Dumbo</tituloOriginal>
+        <puntuacion>7.0</puntuacion>
+        <anyo>1941</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Dumbo</titulo>
+        <tituloOriginal>Dumbo</tituloOriginal>
+        <puntuacion>6.7</puntuacion>
+        <anyo>2019</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Early Man</titulo>
+        <tituloOriginal>Early Man</tituloOriginal>
+        <puntuacion>6.1</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Edward Scissorhands</titulo>
+        <tituloOriginal>Edward Scissorhands</tituloOriginal>
+        <puntuacion>7.7</puntuacion>
+        <anyo>1990</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>El autor</titulo>
+        <tituloOriginal>El autor</tituloOriginal>
+        <puntuacion>0.0</puntuacion>
+        <anyo>2021</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>El Bar</titulo>
+        <tituloOriginal>البار</tituloOriginal>
+        <puntuacion>0.0</puntuacion>
+        <anyo>2012</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>The Uninvited Guest</titulo>
+        <tituloOriginal>El habitante incierto</tituloOriginal>
+        <puntuacion>6.6</puntuacion>
+        <anyo>2004</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>The Method</titulo>
+        <tituloOriginal>El método</tituloOriginal>
+        <puntuacion>6.8</puntuacion>
+        <anyo>2005</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Rise of the Planet of the Apes</titulo>
+        <tituloOriginal>Rise of the Planet of the Apes</tituloOriginal>
+        <puntuacion>7.3</puntuacion>
+        <anyo>2011</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>The Longest Penalty Shot in the World</titulo>
+        <tituloOriginal>El penalti más largo del mundo</tituloOriginal>
+        <puntuacion>5.3</puntuacion>
+        <anyo>2005</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>We Are Pregnant</titulo>
+        <tituloOriginal>Embarazados</tituloOriginal>
+        <puntuacion>5.4</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Empire of the Sun</titulo>
+        <tituloOriginal>Empire of the Sun</tituloOriginal>
+        <puntuacion>7.5</puntuacion>
+        <anyo>1987</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>s Game</titulo>
+        <tituloOriginal>s Game</tituloOriginal>
+        <puntuacion>6.6</puntuacion>
+        <anyo>2013</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Enough Said</titulo>
+        <tituloOriginal>Enough Said</tituloOriginal>
+        <puntuacion>6.7</puntuacion>
+        <anyo>2013</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Escape from New York</titulo>
+        <tituloOriginal>Escape from New York</tituloOriginal>
+        <puntuacion>7.1</puntuacion>
+        <anyo>1981</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Escape Room</titulo>
+        <tituloOriginal>Escape Room</tituloOriginal>
+        <puntuacion>6.5</puntuacion>
+        <anyo>2019</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Euphoria</titulo>
+        <tituloOriginal>Euphoria</tituloOriginal>
+        <puntuacion>6.5</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>s Fine</titulo>
+        <tituloOriginal>s Fine</tituloOriginal>
+        <puntuacion>6.7</puntuacion>
+        <anyo>2009</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Everything Must Go</titulo>
+        <tituloOriginal>Everything Must Go</tituloOriginal>
+        <puntuacion>6.1</puntuacion>
+        <anyo>2011</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Exam</titulo>
+        <tituloOriginal>Exam</tituloOriginal>
+        <puntuacion>6.7</puntuacion>
+        <anyo>2009</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Fantasia</titulo>
+        <tituloOriginal>Fantasia</tituloOriginal>
+        <puntuacion>7.4</puntuacion>
+        <anyo>1940</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Fantasia 2000</titulo>
+        <tituloOriginal>Fantasia 2000</tituloOriginal>
+        <puntuacion>7.0</puntuacion>
+        <anyo>1999</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Fantastic Beasts and Where to Find Them</titulo>
+        <tituloOriginal>Fantastic Beasts and Where to Find Them</tituloOriginal>
+        <puntuacion>7.4</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Fear, Inc.</titulo>
+        <tituloOriginal>Fear, Inc.</tituloOriginal>
+        <puntuacion>5.8</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Happy 140</titulo>
+        <tituloOriginal>Felices 140</tituloOriginal>
+        <puntuacion>6.2</puntuacion>
+        <anyo>2015</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Fences</titulo>
+        <tituloOriginal>Fences</tituloOriginal>
+        <puntuacion>6.8</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Ferdinand</titulo>
+        <tituloOriginal>Ferdinand</tituloOriginal>
+        <puntuacion>7.2</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Fight Club</titulo>
+        <tituloOriginal>Fight Club</tituloOriginal>
+        <puntuacion>8.4</puntuacion>
+        <anyo>1999</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Final Exam</titulo>
+        <tituloOriginal>Final Exam</tituloOriginal>
+        <puntuacion>4.5</puntuacion>
+        <anyo>1981</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Finding Dory</titulo>
+        <tituloOriginal>Finding Dory</tituloOriginal>
+        <puntuacion>7.1</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Finding Nemo</titulo>
+        <tituloOriginal>Finding Nemo</tituloOriginal>
+        <puntuacion>7.8</puntuacion>
+        <anyo>2003</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Finding Neverland</titulo>
+        <tituloOriginal>Finding Neverland</tituloOriginal>
+        <puntuacion>7.3</puntuacion>
+        <anyo>2004</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>First Man</titulo>
+        <tituloOriginal>First Man</tituloOriginal>
+        <puntuacion>7.1</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Following</titulo>
+        <tituloOriginal>Following</tituloOriginal>
+        <puntuacion>7.2</puntuacion>
+        <anyo>1999</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>For a Few Dollars More</titulo>
+        <tituloOriginal>Per qualche dollaro in più</tituloOriginal>
+        <puntuacion>8.0</puntuacion>
+        <anyo>1965</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Forrest Gump</titulo>
+        <tituloOriginal>Forrest Gump</tituloOriginal>
+        <puntuacion>8.5</puntuacion>
+        <anyo>1994</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Four Weddings and a Funeral</titulo>
+        <tituloOriginal>Four Weddings and a Funeral</tituloOriginal>
+        <puntuacion>6.8</puntuacion>
+        <anyo>1994</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Friday the 13th</titulo>
+        <tituloOriginal>Friday the 13th</tituloOriginal>
+        <puntuacion>6.4</puntuacion>
+        <anyo>1980</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Friday the 13th</titulo>
+        <tituloOriginal>Friday the 13th</tituloOriginal>
+        <puntuacion>5.8</puntuacion>
+        <anyo>2009</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Friday the 13th Part 2</titulo>
+        <tituloOriginal>Friday the 13th Part 2</tituloOriginal>
+        <puntuacion>6.1</puntuacion>
+        <anyo>1981</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Fright Night</titulo>
+        <tituloOriginal>Fright Night</tituloOriginal>
+        <puntuacion>7.0</puntuacion>
+        <anyo>1985</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>From Dusk Till Dawn</titulo>
+        <tituloOriginal>From Dusk Till Dawn</tituloOriginal>
+        <puntuacion>7.0</puntuacion>
+        <anyo>1996</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Frozen</titulo>
+        <tituloOriginal>Frozen</tituloOriginal>
+        <puntuacion>7.3</puntuacion>
+        <anyo>2013</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Brain Drain 2</titulo>
+        <tituloOriginal>Fuga de cerebros 2</tituloOriginal>
+        <puntuacion>5.0</puntuacion>
+        <anyo>2011</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Brain Drain</titulo>
+        <tituloOriginal>Fuga de Cerebros</tituloOriginal>
+        <puntuacion>5.3</puntuacion>
+        <anyo>2009</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Fun and Fancy Free</titulo>
+        <tituloOriginal>Fun and Fancy Free</tituloOriginal>
+        <puntuacion>6.3</puntuacion>
+        <anyo>1947</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Game Night</titulo>
+        <tituloOriginal>Game Night</tituloOriginal>
+        <puntuacion>6.8</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Gattaca</titulo>
+        <tituloOriginal>Gattaca</tituloOriginal>
+        <puntuacion>7.6</puntuacion>
+        <anyo>1997</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>s Game</titulo>
+        <tituloOriginal>s Game</tituloOriginal>
+        <puntuacion>6.4</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Ghost in the Shell</titulo>
+        <tituloOriginal>GHOST IN THE SHELL</tituloOriginal>
+        <puntuacion>7.9</puntuacion>
+        <anyo>1995</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Gifted</titulo>
+        <tituloOriginal>Gifted</tituloOriginal>
+        <puntuacion>8.1</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Gladiator</titulo>
+        <tituloOriginal>Gladiator</tituloOriginal>
+        <puntuacion>8.2</puntuacion>
+        <anyo>2000</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Glass</titulo>
+        <tituloOriginal>Glass</tituloOriginal>
+        <puntuacion>6.7</puntuacion>
+        <anyo>2019</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Gone with the Wind</titulo>
+        <tituloOriginal>Gone with the Wind</tituloOriginal>
+        <puntuacion>8.0</puntuacion>
+        <anyo>1940</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>GoodFellas</titulo>
+        <tituloOriginal>GoodFellas</tituloOriginal>
+        <puntuacion>8.5</puntuacion>
+        <anyo>1990</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Gran Torino</titulo>
+        <tituloOriginal>Gran Torino</tituloOriginal>
+        <puntuacion>8.0</puntuacion>
+        <anyo>2008</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Grave of the Fireflies</titulo>
+        <tituloOriginal>火垂るの墓</tituloOriginal>
+        <puntuacion>7.9</puntuacion>
+        <anyo>2005</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Green Book</titulo>
+        <tituloOriginal>Green Book</tituloOriginal>
+        <puntuacion>8.3</puntuacion>
+        <anyo>2018</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Greenberg</titulo>
+        <tituloOriginal>Greenberg</tituloOriginal>
+        <puntuacion>5.8</puntuacion>
+        <anyo>2010</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Groundhog Day</titulo>
+        <tituloOriginal>Groundhog Day</tituloOriginal>
+        <puntuacion>7.6</puntuacion>
+        <anyo>1993</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Guardians of the Galaxy</titulo>
+        <tituloOriginal>Guardians of the Galaxy</tituloOriginal>
+        <puntuacion>7.9</puntuacion>
+        <anyo>2014</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Guardians of the Galaxy Vol. 2</titulo>
+        <tituloOriginal>Guardians of the Galaxy Vol. 2</tituloOriginal>
+        <puntuacion>7.6</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Fernando has Returned</titulo>
+        <tituloOriginal>Fernando ha vuelto</tituloOriginal>
+        <puntuacion>7.0</puntuacion>
+        <anyo>1998</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Hacksaw Ridge</titulo>
+        <tituloOriginal>Hacksaw Ridge</tituloOriginal>
+        <puntuacion>8.2</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Giant</titulo>
+        <tituloOriginal>Handia</tituloOriginal>
+        <puntuacion>6.5</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Happy Death Day</titulo>
+        <tituloOriginal>Happy Death Day</tituloOriginal>
+        <puntuacion>6.6</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>s Just Not That Into You</titulo>
+        <tituloOriginal>s Just Not That Into You</tituloOriginal>
+        <puntuacion>6.5</puntuacion>
+        <anyo>2009</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Hector and the Search for Happiness</titulo>
+        <tituloOriginal>Hector and the Search for Happiness</tituloOriginal>
+        <puntuacion>6.7</puntuacion>
+        <anyo>2014</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Hell or High Water</titulo>
+        <tituloOriginal>Hell or High Water</tituloOriginal>
+        <puntuacion>7.3</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Hello, My Name Is Doris</titulo>
+        <tituloOriginal>Hello, My Name Is Doris</tituloOriginal>
+        <puntuacion>6.4</puntuacion>
+        <anyo>2015</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Hercules</titulo>
+        <tituloOriginal>Hercules</tituloOriginal>
+        <puntuacion>5.7</puntuacion>
+        <anyo>2014</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Beautiful Youth</titulo>
+        <tituloOriginal>Hermosa juventud</tituloOriginal>
+        <puntuacion>6.2</puntuacion>
+        <anyo>2014</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Hidden Figures</titulo>
+        <tituloOriginal>Hidden Figures</tituloOriginal>
+        <puntuacion>8.1</puntuacion>
+        <anyo>2016</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Highlander</titulo>
+        <tituloOriginal>Highlander</tituloOriginal>
+        <puntuacion>6.9</puntuacion>
+        <anyo>1986</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Home Alone 2: Lost in New York</titulo>
+        <tituloOriginal>Home Alone 2: Lost in New York</tituloOriginal>
+        <puntuacion>6.7</puntuacion>
+        <anyo>1992</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>House of 1000 Corpses</titulo>
+        <tituloOriginal>House of 1000 Corpses</tituloOriginal>
+        <puntuacion>6.2</puntuacion>
+        <anyo>2003</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo> Alienate People</titulo>
+        <tituloOriginal> Alienate People</tituloOriginal>
+        <puntuacion>6.0</puntuacion>
+        <anyo>2008</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>I Give It a Year</titulo>
+        <tituloOriginal>I Give It a Year</tituloOriginal>
+        <puntuacion>5.5</puntuacion>
+        <anyo>2013</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>I, Tonya</titulo>
+        <tituloOriginal>I, Tonya</tituloOriginal>
+        <puntuacion>7.5</puntuacion>
+        <anyo>2017</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Idiocracy</titulo>
+        <tituloOriginal>Idiocracy</tituloOriginal>
+        <puntuacion>6.3</puntuacion>
+        <anyo>2006</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Indiana Jones and the Last Crusade</titulo>
+        <tituloOriginal>Indiana Jones and the Last Crusade</tituloOriginal>
+        <puntuacion>7.8</puntuacion>
+        <anyo>1989</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Raiders of the Lost Ark</titulo>
+        <tituloOriginal>Raiders of the Lost Ark</tituloOriginal>
+        <puntuacion>7.9</puntuacion>
+        <anyo>1981</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Indiana Jones and the Temple of Doom</titulo>
+        <tituloOriginal>Indiana Jones and the Temple of Doom</tituloOriginal>
+        <puntuacion>7.3</puntuacion>
+        <anyo>1984</anyo>
+    </pelicula>
+    <pelicula>
+        <titulo>Inglourious Basterds</titulo>
+        <tituloOriginal>Inglourious Basterds</tituloOriginal>
+        <puntuacion>8.2</puntuacion>
+        <anyo>2009</anyo>
+    </pelicula>
+</peliculas>

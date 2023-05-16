@@ -1,0 +1,725 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+th{
+	background-color:#b700fa;
+	color:white;
+	padding:0.5em;
+	font-family:Arial, Helvetica, sans-serif;
+}
+td{
+	padding:0.5em;
+	text-align:center;
+	font-family: "Lucida Console", "Courier New", monospace;
+	background:#00FFFF;
+}
+</style>
+    </head>
+    <body>
+        <table class="center" border="1">
+            <thead>
+                <th>Titulo</th><th>Titulo Original</th><th>Puntuacion</th><th>Anyo</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>12 Angry Men</td><td>12 Angry Men</td><td>8.5</td><td>1957</td>
+                </tr>
+                <tr>
+                    <td>Forrest Gump</td><td>Forrest Gump</td><td>8.5</td><td>1994</td>
+                </tr>
+                <tr>
+                    <td>GoodFellas</td><td>GoodFellas</td><td>8.5</td><td>1990</td>
+                </tr>
+                <tr>
+                    <td>Fight Club</td><td>Fight Club</td><td>8.4</td><td>1999</td>
+                </tr>
+                <tr>
+                    <td>Avengers: Endgame</td><td>Avengers: Endgame</td><td>8.3</td><td>2019</td>
+                </tr>
+                <tr>
+                    <td>Avengers: Infinity War</td><td>Avengers: Infinity War</td><td>8.3</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>Call Me by Your Name</td><td>Call Me by Your Name</td><td>8.3</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Green Book</td><td>Green Book</td><td>8.3</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>Coco</td><td>Coco</td><td>8.2</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Cruella</td><td>Cruella</td><td>8.2</td><td>2021</td>
+                </tr>
+                <tr>
+                    <td>Gladiator</td><td>Gladiator</td><td>8.2</td><td>2000</td>
+                </tr>
+                <tr>
+                    <td>Hacksaw Ridge</td><td>Hacksaw Ridge</td><td>8.2</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Inglourious Basterds</td><td>Inglourious Basterds</td><td>8.2</td><td>2009</td>
+                </tr>
+                <tr>
+                    <td>Alien</td><td>Alien</td><td>8.1</td><td>1979</td>
+                </tr>
+                <tr>
+                    <td>Django Unchained</td><td>Django Unchained</td><td>8.1</td><td>2012</td>
+                </tr>
+                <tr>
+                    <td>Gifted</td><td>Gifted</td><td>8.1</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Hidden Figures</td><td>Hidden Figures</td><td>8.1</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>1917</td><td>1917</td><td>8.0</td><td>2019</td>
+                </tr>
+                <tr>
+                    <td>Amadeus</td><td>Amadeus</td><td>8.0</td><td>1984</td>
+                </tr>
+                <tr>
+                    <td>Bohemian Rhapsody</td><td>Bohemian Rhapsody</td><td>8.0</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>Casino</td><td>Casino</td><td>8.0</td><td>1995</td>
+                </tr>
+                <tr>
+                    <td>Citizen Kane</td><td>Citizen Kane</td><td>8.0</td><td>1941</td>
+                </tr>
+                <tr>
+                    <td>Dial M for Murder</td><td>Dial M for Murder</td><td>8.0</td><td>1954</td>
+                </tr>
+                <tr>
+                    <td>For a Few Dollars More</td><td>Per qualche dollaro in pi&ugrave;</td><td>8.0</td><td>1965</td>
+                </tr>
+                <tr>
+                    <td>Gone with the Wind</td><td>Gone with the Wind</td><td>8.0</td><td>1940</td>
+                </tr>
+                <tr>
+                    <td>Gran Torino</td><td>Gran Torino</td><td>8.0</td><td>2008</td>
+                </tr>
+                <tr>
+                    <td>A Fistful of Dollars</td><td>Per un pugno di dollari</td><td>7.9</td><td>1964</td>
+                </tr>
+                <tr>
+                    <td>A Street Cat Named Bob</td><td>A Street Cat Named Bob</td><td>7.9</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Aliens</td><td>Aliens</td><td>7.9</td><td>1986</td>
+                </tr>
+                <tr>
+                    <td>Blade Runner</td><td>Blade Runner</td><td>7.9</td><td>1982</td>
+                </tr>
+                <tr>
+                    <td>Braveheart</td><td>Braveheart</td><td>7.9</td><td>1995</td>
+                </tr>
+                <tr>
+                    <td>Captain Fantastic</td><td>Captain Fantastic</td><td>7.9</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Catch Me If You Can</td><td>Catch Me If You Can</td><td>7.9</td><td>2002</td>
+                </tr>
+                <tr>
+                    <td>Ghost in the Shell</td><td>GHOST IN THE SHELL</td><td>7.9</td><td>1995</td>
+                </tr>
+                <tr>
+                    <td>Grave of the Fireflies</td><td>火垂るの墓</td><td>7.9</td><td>2005</td>
+                </tr>
+                <tr>
+                    <td>Guardians of the Galaxy</td><td>Guardians of the Galaxy</td><td>7.9</td><td>2014</td>
+                </tr>
+                <tr>
+                    <td>Raiders of the Lost Ark</td><td>Raiders of the Lost Ark</td><td>7.9</td><td>1981</td>
+                </tr>
+                <tr>
+                    <td>Big Hero 6</td><td>Big Hero 6</td><td>7.8</td><td>2014</td>
+                </tr>
+                <tr>
+                    <td>Dog Day Afternoon</td><td>Dog Day Afternoon</td><td>7.8</td><td>1975</td>
+                </tr>
+                <tr>
+                    <td>Dragon Ball Super: Broly</td><td>ドラゴンボール超スーパー ブロリー</td><td>7.8</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>Finding Nemo</td><td>Finding Nemo</td><td>7.8</td><td>2003</td>
+                </tr>
+                <tr>
+                    <td>Indiana Jones and the Last Crusade</td><td>Indiana Jones and the Last Crusade</td><td>7.8</td><td>1989</td>
+                </tr>
+                <tr>
+                    <td>Beauty and the Beast</td><td>Beauty and the Beast</td><td>7.7</td><td>1991</td>
+                </tr>
+                <tr>
+                    <td>Beauty and the Beast</td><td>Beauty and the Beast</td><td>7.7</td><td>1991</td>
+                </tr>
+                <tr>
+                    <td>Captain America: The Winter Soldier</td><td>Captain America: The Winter Soldier</td><td>7.7</td><td>2014</td>
+                </tr>
+                <tr>
+                    <td>Cast Away</td><td>Cast Away</td><td>7.7</td><td>2000</td>
+                </tr>
+                <tr>
+                    <td>Die Hard</td><td>Die Hard</td><td>7.7</td><td>1988</td>
+                </tr>
+                <tr>
+                    <td>Edward Scissorhands</td><td>Edward Scissorhands</td><td>7.7</td><td>1990</td>
+                </tr>
+                <tr>
+                    <td>Aladdin</td><td>Aladdin</td><td>7.6</td><td>1992</td>
+                </tr>
+                <tr>
+                    <td>Anastasia</td><td>Anastasia</td><td>7.6</td><td>1997</td>
+                </tr>
+                <tr>
+                    <td>Arrival</td><td>Arrival</td><td>7.6</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>BlacKkKlansman</td><td>BlacKkKlansman</td><td>7.6</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>Deadpool</td><td>Deadpool</td><td>7.6</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Gattaca</td><td>Gattaca</td><td>7.6</td><td>1997</td>
+                </tr>
+                <tr>
+                    <td>Groundhog Day</td><td>Groundhog Day</td><td>7.6</td><td>1993</td>
+                </tr>
+                <tr>
+                    <td>Guardians of the Galaxy Vol. 2</td><td>Guardians of the Galaxy Vol. 2</td><td>7.6</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>A Star Is Born</td><td>A Star Is Born</td><td>7.5</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>Open Your Eyes</td><td>Abre los ojos</td><td>7.5</td><td>1997</td>
+                </tr>
+                <tr>
+                    <td>After Hours</td><td>After Hours</td><td>7.5</td><td>1985</td>
+                </tr>
+                <tr>
+                    <td>Avatar</td><td>Avatar</td><td>7.5</td><td>2009</td>
+                </tr>
+                <tr>
+                    <td>Baby Driver</td><td>Baby Driver</td><td>7.5</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Carol</td><td>Carol</td><td>7.5</td><td>2015</td>
+                </tr>
+                <tr>
+                    <td>Corpse Bride</td><td>Corpse Bride</td><td>7.5</td><td>2005</td>
+                </tr>
+                <tr>
+                    <td>Deadpool 2</td><td>Deadpool 2</td><td>7.5</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>Empire of the Sun</td><td>Empire of the Sun</td><td>7.5</td><td>1987</td>
+                </tr>
+                <tr>
+                    <td>I, Tonya</td><td>I, Tonya</td><td>7.5</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>100 Meters</td><td>100 metros</td><td>7.4</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>American Psycho</td><td>American Psycho</td><td>7.4</td><td>2000</td>
+                </tr>
+                <tr>
+                    <td>American Sniper</td><td>American Sniper</td><td>7.4</td><td>2014</td>
+                </tr>
+                <tr>
+                    <td>An Affair to Remember</td><td>An Affair to Remember</td><td>7.4</td><td>1957</td>
+                </tr>
+                <tr>
+                    <td>Apollo 13</td><td>Apollo 13</td><td>7.4</td><td>1995</td>
+                </tr>
+                <tr>
+                    <td>Black Panther</td><td>Black Panther</td><td>7.4</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>s Dracula</td><td>s Dracula</td><td>7.4</td><td>1992</td>
+                </tr>
+                <tr>
+                    <td>Captain America: Civil War</td><td>Captain America: Civil War</td><td>7.4</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Close Encounters of the Third Kind</td><td>Close Encounters of the Third Kind</td><td>7.4</td><td>1977</td>
+                </tr>
+                <tr>
+                    <td>Creed</td><td>Creed</td><td>7.4</td><td>2015</td>
+                </tr>
+                <tr>
+                    <td>Doctor Strange</td><td>Doctor Strange</td><td>7.4</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Duel</td><td>Duel</td><td>7.4</td><td>1971</td>
+                </tr>
+                <tr>
+                    <td>Fantasia</td><td>Fantasia</td><td>7.4</td><td>1940</td>
+                </tr>
+                <tr>
+                    <td>Fantastic Beasts and Where to Find Them</td><td>Fantastic Beasts and Where to Find Them</td><td>7.4</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>(500) Days of Summer</td><td>(500) Days of Summer</td><td>7.3</td><td>2009</td>
+                </tr>
+                <tr>
+                    <td>Biutiful</td><td>Biutiful</td><td>7.3</td><td>2010</td>
+                </tr>
+                <tr>
+                    <td>Brooklyn</td><td>Brooklyn</td><td>7.3</td><td>2015</td>
+                </tr>
+                <tr>
+                    <td>Cape Fear</td><td>Cape Fear</td><td>7.3</td><td>1991</td>
+                </tr>
+                <tr>
+                    <td>Christopher Robin</td><td>Christopher Robin</td><td>7.3</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>Collateral Beauty</td><td>Collateral Beauty</td><td>7.3</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Rise of the Planet of the Apes</td><td>Rise of the Planet of the Apes</td><td>7.3</td><td>2011</td>
+                </tr>
+                <tr>
+                    <td>Finding Neverland</td><td>Finding Neverland</td><td>7.3</td><td>2004</td>
+                </tr>
+                <tr>
+                    <td>Frozen</td><td>Frozen</td><td>7.3</td><td>2013</td>
+                </tr>
+                <tr>
+                    <td>Hell or High Water</td><td>Hell or High Water</td><td>7.3</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Indiana Jones and the Temple of Doom</td><td>Indiana Jones and the Temple of Doom</td><td>7.3</td><td>1984</td>
+                </tr>
+                <tr>
+                    <td>One Hundred and One Dalmatians</td><td>One Hundred and One Dalmatians</td><td>7.2</td><td>1961</td>
+                </tr>
+                <tr>
+                    <td>A Fish Called Wanda</td><td>A Fish Called Wanda</td><td>7.2</td><td>1988</td>
+                </tr>
+                <tr>
+                    <td>Alice in Wonderland</td><td>Alice in Wonderland</td><td>7.2</td><td>1951</td>
+                </tr>
+                <tr>
+                    <td>Babel</td><td>Babel</td><td>7.2</td><td>2006</td>
+                </tr>
+                <tr>
+                    <td>Die Hard: With a Vengeance</td><td>Die Hard: With a Vengeance</td><td>7.2</td><td>1995</td>
+                </tr>
+                <tr>
+                    <td>Ferdinand</td><td>Ferdinand</td><td>7.2</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Following</td><td>Following</td><td>7.2</td><td>1999</td>
+                </tr>
+                <tr>
+                    <td>Aladdin</td><td>Aladdin</td><td>7.1</td><td>2019</td>
+                </tr>
+                <tr>
+                    <td>Dawn Breaks, Which Is No Small Thing</td><td>Amanece, que no es poco</td><td>7.1</td><td>1989</td>
+                </tr>
+                <tr>
+                    <td>Ant-Man</td><td>Ant-Man</td><td>7.1</td><td>2015</td>
+                </tr>
+                <tr>
+                    <td>Brimstone</td><td>Brimstone</td><td>7.1</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Chef</td><td>Chef</td><td>7.1</td><td>2014</td>
+                </tr>
+                <tr>
+                    <td>Crazy Rich Asians</td><td>Crazy Rich Asians</td><td>7.1</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>Escape from New York</td><td>Escape from New York</td><td>7.1</td><td>1981</td>
+                </tr>
+                <tr>
+                    <td>Finding Dory</td><td>Finding Dory</td><td>7.1</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>First Man</td><td>First Man</td><td>7.1</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>s Life</td><td>s Life</td><td>7.0</td><td>1998</td>
+                </tr>
+                <tr>
+                    <td>An Education</td><td>An Education</td><td>7.0</td><td>2009</td>
+                </tr>
+                <tr>
+                    <td>And Then There Were None</td><td>And Then There Were None</td><td>7.0</td><td>1945</td>
+                </tr>
+                <tr>
+                    <td>Ant-Man and the Wasp</td><td>Ant-Man and the Wasp</td><td>7.0</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>Bambi</td><td>Bambi</td><td>7.0</td><td>1942</td>
+                </tr>
+                <tr>
+                    <td>Brave</td><td>Brave</td><td>7.0</td><td>2012</td>
+                </tr>
+                <tr>
+                    <td>Brawl in Cell Block 99</td><td>Brawl in Cell Block 99</td><td>7.0</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Captain America: The First Avenger</td><td>Captain America: The First Avenger</td><td>7.0</td><td>2011</td>
+                </tr>
+                <tr>
+                    <td>Colette</td><td>Colette</td><td>7.0</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>Dawn of the Dead</td><td>Dawn of the Dead</td><td>7.0</td><td>2004</td>
+                </tr>
+                <tr>
+                    <td>Dumbo</td><td>Dumbo</td><td>7.0</td><td>1941</td>
+                </tr>
+                <tr>
+                    <td>Fantasia 2000</td><td>Fantasia 2000</td><td>7.0</td><td>1999</td>
+                </tr>
+                <tr>
+                    <td>Fright Night</td><td>Fright Night</td><td>7.0</td><td>1985</td>
+                </tr>
+                <tr>
+                    <td>From Dusk Till Dawn</td><td>From Dusk Till Dawn</td><td>7.0</td><td>1996</td>
+                </tr>
+                <tr>
+                    <td>Fernando has Returned</td><td>Fernando ha vuelto</td><td>7.0</td><td>1998</td>
+                </tr>
+                <tr>
+                    <td>21 Jump Street</td><td>21 Jump Street</td><td>6.9</td><td>2012</td>
+                </tr>
+                <tr>
+                    <td>Captain Marvel</td><td>Captain Marvel</td><td>6.9</td><td>2019</td>
+                </tr>
+                <tr>
+                    <td>Cars</td><td>Cars</td><td>6.9</td><td>2006</td>
+                </tr>
+                <tr>
+                    <td>Cars 3</td><td>Cars 3</td><td>6.9</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Die Hard 2</td><td>Die Hard 2</td><td>6.9</td><td>1990</td>
+                </tr>
+                <tr>
+                    <td>Highlander</td><td>Highlander</td><td>6.9</td><td>1986</td>
+                </tr>
+                <tr>
+                    <td>American Hustle</td><td>American Hustle</td><td>6.8</td><td>2013</td>
+                </tr>
+                <tr>
+                    <td>Armageddon</td><td>Armageddon</td><td>6.8</td><td>1998</td>
+                </tr>
+                <tr>
+                    <td>Bad Times at the El Royale</td><td>Bad Times at the El Royale</td><td>6.8</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>Cinderella</td><td>Cinderella</td><td>6.8</td><td>2015</td>
+                </tr>
+                <tr>
+                    <td>Copenhagen</td><td>Copenhagen</td><td>6.8</td><td>2014</td>
+                </tr>
+                <tr>
+                    <td>Cube</td><td>Cube</td><td>6.8</td><td>1997</td>
+                </tr>
+                <tr>
+                    <td>Death Proof</td><td>Death Proof</td><td>6.8</td><td>2007</td>
+                </tr>
+                <tr>
+                    <td>The Method</td><td>El m&eacute;todo</td><td>6.8</td><td>2005</td>
+                </tr>
+                <tr>
+                    <td>Fences</td><td>Fences</td><td>6.8</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Four Weddings and a Funeral</td><td>Four Weddings and a Funeral</td><td>6.8</td><td>1994</td>
+                </tr>
+                <tr>
+                    <td>Game Night</td><td>Game Night</td><td>6.8</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>A Bad Idea Gone Wrong</td><td>A Bad Idea Gone Wrong</td><td>6.7</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Benvenuti al Sud</td><td>Benvenuti al sud</td><td>6.7</td><td>2010</td>
+                </tr>
+                <tr>
+                    <td>Cinderella</td><td>Cinderella</td><td>6.7</td><td>2021</td>
+                </tr>
+                <tr>
+                    <td>Demolition</td><td>Demolition</td><td>6.7</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Dumbo</td><td>Dumbo</td><td>6.7</td><td>2019</td>
+                </tr>
+                <tr>
+                    <td>Enough Said</td><td>Enough Said</td><td>6.7</td><td>2013</td>
+                </tr>
+                <tr>
+                    <td>s Fine</td><td>s Fine</td><td>6.7</td><td>2009</td>
+                </tr>
+                <tr>
+                    <td>Exam</td><td>Exam</td><td>6.7</td><td>2009</td>
+                </tr>
+                <tr>
+                    <td>Glass</td><td>Glass</td><td>6.7</td><td>2019</td>
+                </tr>
+                <tr>
+                    <td>Hector and the Search for Happiness</td><td>Hector and the Search for Happiness</td><td>6.7</td><td>2014</td>
+                </tr>
+                <tr>
+                    <td>Home Alone 2: Lost in New York</td><td>Home Alone 2: Lost in New York</td><td>6.7</td><td>1992</td>
+                </tr>
+                <tr>
+                    <td>Chinese Puzzle</td><td>Casse-T&ecirc;te Chinois</td><td>6.6</td><td>2013</td>
+                </tr>
+                <tr>
+                    <td>Demolition Man</td><td>Demolition Man</td><td>6.6</td><td>1993</td>
+                </tr>
+                <tr>
+                    <td>The Uninvited Guest</td><td>El habitante incierto</td><td>6.6</td><td>2004</td>
+                </tr>
+                <tr>
+                    <td>s Game</td><td>s Game</td><td>6.6</td><td>2013</td>
+                </tr>
+                <tr>
+                    <td>Happy Death Day</td><td>Happy Death Day</td><td>6.6</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Bolt</td><td>Bolt</td><td>6.5</td><td>2008</td>
+                </tr>
+                <tr>
+                    <td>Caf&eacute; Society</td><td>Caf&eacute; Society</td><td>6.5</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Escape Room</td><td>Escape Room</td><td>6.5</td><td>2019</td>
+                </tr>
+                <tr>
+                    <td>Euphoria</td><td>Euphoria</td><td>6.5</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>Giant</td><td>Handia</td><td>6.5</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>s Just Not That Into You</td><td>s Just Not That Into You</td><td>6.5</td><td>2009</td>
+                </tr>
+                <tr>
+                    <td>7 Years</td><td>7 a&ntilde;os</td><td>6.4</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Attack the Block</td><td>Attack the Block</td><td>6.4</td><td>2011</td>
+                </tr>
+                <tr>
+                    <td>Bad Words</td><td>Bad Words</td><td>6.4</td><td>2013</td>
+                </tr>
+                <tr>
+                    <td>Central Intelligence</td><td>Central Intelligence</td><td>6.4</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Creep</td><td>Creep</td><td>6.4</td><td>2014</td>
+                </tr>
+                <tr>
+                    <td>Friday the 13th</td><td>Friday the 13th</td><td>6.4</td><td>1980</td>
+                </tr>
+                <tr>
+                    <td>s Game</td><td>s Game</td><td>6.4</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Hello, My Name Is Doris</td><td>Hello, My Name Is Doris</td><td>6.4</td><td>2015</td>
+                </tr>
+                <tr>
+                    <td>Colossal</td><td>Colossal</td><td>6.3</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Coyote Ugly</td><td>Coyote Ugly</td><td>6.3</td><td>2000</td>
+                </tr>
+                <tr>
+                    <td>Due Date</td><td>Due Date</td><td>6.3</td><td>2010</td>
+                </tr>
+                <tr>
+                    <td>Fun and Fancy Free</td><td>Fun and Fancy Free</td><td>6.3</td><td>1947</td>
+                </tr>
+                <tr>
+                    <td>Idiocracy</td><td>Idiocracy</td><td>6.3</td><td>2006</td>
+                </tr>
+                <tr>
+                    <td>Nothing in Return</td><td>A cambio de nada</td><td>6.2</td><td>2015</td>
+                </tr>
+                <tr>
+                    <td>s Status</td><td>s Status</td><td>6.2</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Churchill</td><td>Churchill</td><td>6.2</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>To Steal from a Thief</td><td>Cien a&ntilde;os de perd&oacute;n</td><td>6.2</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Click</td><td>Click</td><td>6.2</td><td>2006</td>
+                </tr>
+                <tr>
+                    <td>Happy 140</td><td>Felices 140</td><td>6.2</td><td>2015</td>
+                </tr>
+                <tr>
+                    <td>Beautiful Youth</td><td>Hermosa juventud</td><td>6.2</td><td>2014</td>
+                </tr>
+                <tr>
+                    <td>House of 1000 Corpses</td><td>House of 1000 Corpses</td><td>6.2</td><td>2003</td>
+                </tr>
+                <tr>
+                    <td>47 Ronin</td><td>47 Ronin</td><td>6.1</td><td>2013</td>
+                </tr>
+                <tr>
+                    <td>Antz</td><td>Antz</td><td>6.1</td><td>1998</td>
+                </tr>
+                <tr>
+                    <td>Brightburn</td><td>Brightburn</td><td>6.1</td><td>2019</td>
+                </tr>
+                <tr>
+                    <td>t Hang Up</td><td>t Hang Up</td><td>6.1</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Early Man</td><td>Early Man</td><td>6.1</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>Everything Must Go</td><td>Everything Must Go</td><td>6.1</td><td>2011</td>
+                </tr>
+                <tr>
+                    <td>Friday the 13th Part 2</td><td>Friday the 13th Part 2</td><td>6.1</td><td>1981</td>
+                </tr>
+                <tr>
+                    <td>5 Flights Up</td><td>5 Flights Up</td><td>6.0</td><td>2014</td>
+                </tr>
+                <tr>
+                    <td>Berlin Syndrome</td><td>Berlin Syndrome</td><td>6.0</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Cars 2</td><td>Cars 2</td><td>6.0</td><td>2011</td>
+                </tr>
+                <tr>
+                    <td>s Play</td><td>s Play</td><td>6.0</td><td>2019</td>
+                </tr>
+                <tr>
+                    <td> Alienate People</td><td> Alienate People</td><td>6.0</td><td>2008</td>
+                </tr>
+                <tr>
+                    <td>Five Square Meters</td><td>Cinco metros cuadrados</td><td>5.9</td><td>2011</td>
+                </tr>
+                <tr>
+                    <td>Batman v Superman: Dawn of Justice</td><td>Batman v Superman: Dawn of Justice</td><td>5.9</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Chicken Little</td><td>Chicken Little</td><td>5.9</td><td>2005</td>
+                </tr>
+                <tr>
+                    <td>Come to Daddy</td><td>Come to Daddy</td><td>5.9</td><td>2019</td>
+                </tr>
+                <tr>
+                    <td>Serial (Bad) Weddings 2</td><td>on a encore fait au Bon Dieu ?</td><td>5.9</td><td>2019</td>
+                </tr>
+                <tr>
+                    <td>Absolutely Anything</td><td>Absolutely Anything</td><td>5.8</td><td>2015</td>
+                </tr>
+                <tr>
+                    <td>Beethoven</td><td>Beethoven</td><td>5.8</td><td>1992</td>
+                </tr>
+                <tr>
+                    <td>Crash Pad</td><td>Crash Pad</td><td>5.8</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Fear, Inc.</td><td>Fear, Inc.</td><td>5.8</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Friday the 13th</td><td>Friday the 13th</td><td>5.8</td><td>2009</td>
+                </tr>
+                <tr>
+                    <td>Greenberg</td><td>Greenberg</td><td>5.8</td><td>2010</td>
+                </tr>
+                <tr>
+                    <td>Ben-Hur</td><td>Ben-Hur</td><td>5.7</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Cube Zero</td><td>Cube Zero</td><td>5.7</td><td>2004</td>
+                </tr>
+                <tr>
+                    <td>Destination Wedding</td><td>Destination Wedding</td><td>5.7</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>Hercules</td><td>Hercules</td><td>5.7</td><td>2014</td>
+                </tr>
+                <tr>
+                    <td>Bad Match</td><td>Bad Match</td><td>5.6</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Dear Dictator</td><td>Dear Dictator</td><td>5.6</td><td>2018</td>
+                </tr>
+                <tr>
+                    <td>s 2nd</td><td>s 2nd</td><td>5.5</td><td>1993</td>
+                </tr>
+                <tr>
+                    <td>Cube 2: Hypercube</td><td>Cube 2: Hypercube</td><td>5.5</td><td>2002</td>
+                </tr>
+                <tr>
+                    <td>I Give It a Year</td><td>I Give It a Year</td><td>5.5</td><td>2013</td>
+                </tr>
+                <tr>
+                    <td>6 Years</td><td>6 Years</td><td>5.4</td><td>2015</td>
+                </tr>
+                <tr>
+                    <td>Drone</td><td>Drone</td><td>5.4</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>We Are Pregnant</td><td>Embarazados</td><td>5.4</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>The Longest Penalty Shot in the World</td><td>El penalti m&aacute;s largo del mundo</td><td>5.3</td><td>2005</td>
+                </tr>
+                <tr>
+                    <td>Brain Drain</td><td>Fuga de Cerebros</td><td>5.3</td><td>2009</td>
+                </tr>
+                <tr>
+                    <td>Baked in Brooklyn</td><td>Baked in Brooklyn</td><td>5.2</td><td>2016</td>
+                </tr>
+                <tr>
+                    <td>Bereavement</td><td>Bereavement</td><td>5.2</td><td>2010</td>
+                </tr>
+                <tr>
+                    <td>Dismissal</td><td>Despido procedente</td><td>5.1</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Brain Drain 2</td><td>Fuga de cerebros 2</td><td>5.0</td><td>2011</td>
+                </tr>
+                <tr>
+                    <td>Final Exam</td><td>Final Exam</td><td>4.5</td><td>1981</td>
+                </tr>
+                <tr>
+                    <td>Birdman</td><td>Birdman</td><td>4.0</td><td>2014</td>
+                </tr>
+                <tr>
+                    <td>Something Huge</td><td>Algo muy gordo</td><td>3.9</td><td>2017</td>
+                </tr>
+                <tr>
+                    <td>Contratiempo</td><td>Contratiempo</td><td>0.0</td><td>2003</td>
+                </tr>
+                <tr>
+                    <td>Definitely Maybe</td><td>Definitivt kanskje</td><td>0.0</td><td>2020</td>
+                </tr>
+                <tr>
+                    <td>Extreme Dinosaurs</td><td>Extreme Dinosaurs</td><td>0.0</td><td>2000</td>
+                </tr>
+                <tr>
+                    <td>El autor</td><td>El autor</td><td>0.0</td><td>2021</td>
+                </tr>
+                <tr>
+                    <td>El Bar</td><td>البار</td><td>0.0</td><td>2012</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

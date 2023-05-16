@@ -1,0 +1,12 @@
+git init (crea un repositorio)
+git add (filename). 
+git status (ver stagging area)
+git commit -m ""
+git log (historial) 
+git remote add origin URL
+git push -u origin (rama)
+git branch 
+git checkout (rama)
+git merge (rama)
+git branch -m (nombre) cambiar de nombre
+git branch -d (nombre) borrar

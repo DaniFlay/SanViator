@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalogoCoches>
+    <coche id="1">
+        <marca>Ferrari</marca>
+        <modelo>360 moderna</modelo>
+        <anyo>1998</anyo>
+        <potencia cv="cv">340</potencia>
+        <precio moneda="euro">79500.0</precio>
+    </coche>
+    <coche id="2">
+        <marca>BMW</marca>
+        <modelo>Serie 3</modelo>
+        <anyo>2005</anyo>
+        <potencia cv="cv">180</potencia>
+        <precio moneda="euro">18200.0</precio>
+    </coche>
+    <coche id="3">
+        <marca>Lada</marca>
+        <modelo>Kalina</modelo>
+        <anyo>2004</anyo>
+        <potencia cv="cv">90</potencia>
+        <precio moneda="euro">10732.0</precio>
+    </coche>
+    <coche id="4">
+        <marca>Lada</marca>
+        <modelo>Niva</modelo>
+        <anyo>1997</anyo>
+        <potencia cv="cv">83</potencia>
+        <precio moneda="euro">7500.0</precio>
+    </coche>
+    <coche id="5">
+        <marca>Lada</marca>
+        <modelo>Samara</modelo>
+        <anyo>1984</anyo>
+        <potencia cv="cv">71</potencia>
+        <precio moneda="euro">4800.0</precio>
+    </coche>
+</catalogoCoches>

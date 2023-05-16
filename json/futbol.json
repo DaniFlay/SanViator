@@ -1,0 +1,205 @@
+{
+    "equipos":[{
+        "nombre":"Real Madrid CF",
+        "ciudad":"Madrid",
+        "año":1902,
+        "primera":true,
+        "titulos liga":35,
+        "jugadores":[{
+            "nombre":"Thibaut Courtois",
+            "dorsal":1,
+            "posicion":"Portero"
+        },{
+            "nombre":"Daniel Carvajal",
+            "dorsal":2,
+            "posicion":"Lateral Derecho"
+        },{
+            "nombre":"Eder Militao",
+            "dorsal":3,
+            "posicion":"Defensa Central"
+        },{
+            "nombre":"David Alaba",
+            "dorsal":4,
+            "posicion":"Defensa Central"
+        },{
+            "nombre":"Jesus Vallejo",
+            "dorsal":5,
+            "posicion":"Defensa Central"
+        },{
+            "nombre":"Nacho Fernandez",
+            "dorsal":6,
+            "posicion":"Defensa Central, Lateral Izquierdo, Lateral Derecho"
+        },{
+            "nombre":"Eden Hazard",
+            "dorsal":7,
+            "posicion":"Extremo Izquierdo/Media punta"
+        },{
+            "nombre":"Toni Kroos",
+            "dorsal":8,
+            "posicion":"Mediocentro"
+        },{
+            "nombre":"Karim Benzema",
+            "dorsal":9,
+            "posicion":"Delantero Centro"
+        },{
+            "nombre":"Luka Modric",
+            "dorsal":10,
+            "posicion":"Mediocentro"
+        },{
+            "nombre":"Marco Asensio",
+            "dorsal":11,
+            "posicion":"Extremo Izquierdo/Extremo Derecho"
+        },{
+            "nombre":"Eduardo Camavinga",
+            "dorsal":12,
+            "posicion":"Pivote/Lateral Izquierdo"
+        },{
+            "nombre":"Anriy Lunin",
+            "dorsal":13,
+            "posicion":"Portero"
+        },{
+            "nombre":"Federico Valverde",
+            "dorsal":15,
+            "posicion":"Mediocentro/Extremo Derecho"
+        },{
+            "nombre":"Alvaro Odriozola",
+            "dorsal":16,
+            "posicion":"Lateral Derecho"
+        },{
+            "nombre":"Lucas Vazquez",
+            "dorsal":17,
+            "posicion":"Extremo Derecho/Lateral Derecho"
+        },{
+            "nombre":"Aurelien Tchouameni",
+            "dorsal":18,
+            "posicion":"Pivote"
+        },{
+            "nombre":"Daniel Ceballos",
+            "dorsal":19,
+            "posicion":"Media punta, Mediocentro"
+        },{
+            "nombre":"Vini JR",
+            "dorsal":20,
+            "posicion":"Extremo Izquierdo"
+        },{
+            "nombre":"Rodrygo Goes",
+            "dorsal":21,
+            "posicion":"Extremo Izquierdo/Extremo Derecho"
+        },{
+            "nombre":"Antonio Rudiger",
+            "dorsal":22,
+            "posicion":"Defensa Central"
+        },{
+            "nombre":"Ferland Mendy",
+            "dorsal":23,
+            "posicion":"Lateral Izquierdo"
+        },{
+            "nombre":"Mariano Diaz",
+            "dorsal":24,
+            "posicion":"Delantero Centro"
+        },{
+            "nombre":"Lucas Cañizares",
+            "dorsal":30,
+            "posicion":"Portero"
+        },{
+            "nombre":"Alvaro Rodriguez",
+            "dorsal":39,
+            "posicion":"Delantero Centro"
+        }
+    ]
+    },{
+        "nombre":"FC Barcelona",
+        "ciudad":"Barcelona",
+        "año":1899,
+        "primera":true,
+        "titulos liga":26,
+        "jugadores":[{
+            "nombre":"Marc-Andre Ter Stegen",
+            "dorsal":1,
+            "posicion":"Portero"
+        },{
+            "nombre":"Marcos Alonso",
+            "dorsal":3,
+            "posicion":"Lateral Izquierdo"
+        },{
+            "nombre":"Ronald Araujo",
+            "dorsal":4,
+            "posicion":"Defensa Central"
+        },{
+            "nombre":"Sergio Busquets",
+            "dorsal":5,
+            "posicion":"Pivote"
+        },{
+            "nombre":"Gavi",
+            "dorsal":6,
+            "posicion":"Mediocentro"
+        },{
+            "nombre":"Ousmane Dembele",
+            "dorsal":7,
+            "posicion":"Extremo Derecho"
+        },{
+            "nombre":"Pedri",
+            "dorsal":8,
+            "posicion":"Mediocentro"
+        },{
+            "nombre":"Robert Lewandowski",
+            "dorsal":9,
+            "posicion":"Delantero Centro"
+        },{
+            "nombre":"Ansu Fati",
+            "dorsal":10,
+            "posicion":"Extremo Izquierdo/Media punta"
+        },{
+            "nombre":"Ferran Torres",
+            "dorsal":11,
+            "posicion":"Extremo Izquierdo/Extremo Derecho"
+        },{
+            "nombre":"Andreas Christinsen",
+            "dorsal":15,
+            "posicion":"Defensa Central"
+        },{
+            "nombre":"Jordi Alba",
+            "dorsal":18,
+            "posicion":"Lateral Izquierdo"
+        },{
+            "nombre":"Frank Kessie",
+            "dorsal":19,
+            "posicion":"Pivote, Mediocentro"
+        },{
+            "nombre":"Sergi Roberto",
+            "dorsal":20,
+            "posicion":"Mediocentro, Lateral Derecho"
+        },{
+            "nombre":"Frenkie de Jong",
+            "dorsal":21,
+            "posicion":"Mediocentro"
+        },{
+            "nombre":"Raphinha",
+            "dorsal":22,
+            "posicion":"Extremo Derecho"
+        },
+        {
+            "nombre":"Jules Kounde",
+            "dorsal":23,
+            "posicion":"Defensa Central"
+        },
+        {
+            "nombre":"Eric Garcia",
+            "dorsal":24,
+            "posicion":"Defensa Central"
+        },{
+            "nombre":"Iñaki Peña",
+            "dorsal":26,
+            "posicion":"Portero"
+        },{
+            "nombre":"Alejandro Baldr",
+            "dorsal":28,
+            "posicion":"Lateral Izquierdo"
+        },{
+            "nombre":"Pablo Torre",
+            "dorsal":32,
+            "posicion":"Portero"
+        }
+    ]
+    }]
+}
