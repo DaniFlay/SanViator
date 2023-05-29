@@ -157,8 +157,10 @@ public class main {
 	    		double numm2=Double.parseDouble(decimalFormat.format(ran2)) ;
 
 	    		if(datos.get(i).getModulo().equals("PFG")==false && datos.get(i).getModulo().equals("PE")==false)  {
+	    			System.out.println("insert into notasBoletin values ('"+datos.get(i).getDni()+"','"+datos.get(i).getCiclo()+"','"+datos.get(i).getModulo()+"',"+null+",1,"+null+");");
 	    			System.out.println("insert into nota values ('"+datos.get(i).getDni()+"','"+datos.get(i).getCiclo()+"','"+datos.get(i).getModulo()+"',"+numm+","+datos.get(i).getCurso()+",1,'"+"examen');");
 		    		System.out.println("insert into nota values ('"+datos.get(i).getDni()+"','"+datos.get(i).getCiclo()+"','"+datos.get(i).getModulo()+"',"+numm2+","+datos.get(i).getCurso()+",1,'"+"practica');");
+		    		
 	    		}
 	    		
 	    	}
@@ -171,9 +173,11 @@ public class main {
 	    		double numm=Double.parseDouble(decimalFormat.format(ran)) ;
 	    		double numm2=Double.parseDouble(decimalFormat.format(ran2)) ;
 	    		if(datos.get(i).getModulo().equals("PFG")==false && datos.get(i).getModulo().equals("PE")==false)  {
+	    			System.out.println("insert into notasBoletin values ('"+datos.get(i).getDni()+"','"+datos.get(i).getCiclo()+"','"+datos.get(i).getModulo()+"',"+null+",2,"+null+");");
 	    		System.out.println("insert into nota values ('"+datos.get(i).getDni()+"','"+datos.get(i).getCiclo()+"','"+datos.get(i).getModulo()+"',"+numm+","+datos.get(i).getCurso()+",2,'"+"examen');");
 	    		System.out.println("insert into nota values ('"+datos.get(i).getDni()+"','"+datos.get(i).getCiclo()+"','"+datos.get(i).getModulo()+"',"+numm2+","+datos.get(i).getCurso()+",2,'"+"practica');");
-	    	}}
+	    		
+	    		}}
 	    	for(int i=0; i<datos.size();i++) {
 	    		DecimalFormat decimalFormat = new DecimalFormat("#.##");
 	    		Random r= new Random();
@@ -183,8 +187,10 @@ public class main {
 	    		double numm=Double.parseDouble(decimalFormat.format(ran)) ;
 	    		double numm2=Double.parseDouble(decimalFormat.format(ran2)) ;
 	    		if(datos.get(i).getModulo().equals("PFG")==false && datos.get(i).getModulo().equals("PE")==false) {
+	    			System.out.println("insert into notasBoletin values ('"+datos.get(i).getDni()+"','"+datos.get(i).getCiclo()+"','"+datos.get(i).getModulo()+"',"+null+",3,"+null+");");
 	    		System.out.println("insert into nota values ('"+datos.get(i).getDni()+"','"+datos.get(i).getCiclo()+"','"+datos.get(i).getModulo()+"',"+numm+","+datos.get(i).getCurso()+",3,'"+"examen');");
 	    		System.out.println("insert into nota values ('"+datos.get(i).getDni()+"','"+datos.get(i).getCiclo()+"','"+datos.get(i).getModulo()+"',"+numm2+","+datos.get(i).getCurso()+",3,'"+"practica');");
+	    		
 	    	}}
 	    }
 }
