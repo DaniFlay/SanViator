@@ -78,6 +78,17 @@ fechaPromocion date,
 curso varchar(9),
 foreign key (dni) references matricula(dniAlumno)
 );
+create table if not exists faltas(
+dni varchar(9),
+ciclo varchar(3),
+modulo varchar(3),
+fecha date,
+numFaltas int,
+evaluacion int,
+primary key(dni,ciclo,modulo,fecha,evaluacion),
+foreign key(dni) references alumno(dniAlumno),
+foreign key (ciclo,modulo) references matricula(ciclo,modulo)
+);
 
 
 insert into ciclo values ('DAM', 'Desarrollo de Aplicaciones Multiplataforma');

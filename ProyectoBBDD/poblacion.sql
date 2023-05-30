@@ -5998,4 +5998,9 @@ insert into nota values ('70128547Y','MC','PAU',6.43,2,3,'practica');
 insert into notasBoletin values ('70128547Y','MC','EIE',null,3,null);
 insert into nota values ('70128547Y','MC','EIE',1.29,2,3,'examen');
 insert into nota values ('70128547Y','MC','EIE',3.28,2,3,'practica');
-select * from notasBoletin;
+insert into faltas values('70128547Y','MC','EIE','2023-06-22',5,1);
+insert into faltas values('70128547Y','MC','EIE','2024-06-22',2,1);
+insert into faltas values('70128547Y','MC','EIE','2025-06-22',7,1);
+select * from faltas;
+select * from nota where dniAlumno='70128547Y';
+
