@@ -186,7 +186,7 @@ public class main {
 	    		double ran2= r2.nextDouble()*10;
 	    		double numm=Double.parseDouble(decimalFormat.format(ran)) ;
 	    		double numm2=Double.parseDouble(decimalFormat.format(ran2)) ;
-	    		if(datos.get(i).getModulo().equals("PFG")==false && datos.get(i).getModulo().equals("PE")==false) {
+	    		if(datos.get(i).getModulo().equals("PFG")==false && datos.get(i).getModulo().equals("PE")==false && datos.get(i).getCurso()==1) {
 	    			System.out.println("insert into notasBoletin values ('"+datos.get(i).getDni()+"','"+datos.get(i).getCiclo()+"','"+datos.get(i).getModulo()+"',"+null+",3,"+null+");");
 	    		System.out.println("insert into nota values ('"+datos.get(i).getDni()+"','"+datos.get(i).getCiclo()+"','"+datos.get(i).getModulo()+"',"+numm+","+datos.get(i).getCurso()+",3,'"+"examen');");
 	    		System.out.println("insert into nota values ('"+datos.get(i).getDni()+"','"+datos.get(i).getCiclo()+"','"+datos.get(i).getModulo()+"',"+numm2+","+datos.get(i).getCurso()+",3,'"+"practica');");
