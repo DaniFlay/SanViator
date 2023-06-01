@@ -5188,4 +5188,4 @@ insert into nota values ('80756322X','MC','IPD',9.51,1,3,'practica');
 insert into notasBoletin values ('80756322X','MC','FOL',null,3,null);
 insert into nota values ('80756322X','MC','FOL',8.4,1,3,'examen');
 insert into nota values ('80756322X','MC','FOL',5.45,1,3,'practica');
-insert into nota values ('80756322X','MC','FOL',8.4,1,4,'final');
+insert into nota values ('80756322X','MC','IPD',10,1,4,'final');

@@ -94,33 +94,40 @@ begin
 insert into notaFinal values (new.dnialumno,new.ciclo,new.modulo,null,null);
 end;
 //
-create trigger calculoNotaFinal
+create trigger insertarNotaFinal
 after insert
 on notasBoletin
 for each row 
 begin
 declare evaluaciones int;
 declare nota int;
-declare curso int;
-select curso into curso from modulo where new.modulo= abreviaturamodulo and ciclo=new.ciclo;
 set evaluaciones= contarEvaluaciones(new.dnialumno,new.ciclo,new.modulo);
 if(evaluaciones=4) then
 select valor into nota from notasboletin where new.dnialumno=dnialumno and evaluacion=4 and ciclo=new.ciclo and modulo=new.modulo;
 update notafinal set valor=nota where dnialumno=new.dnialumno and ciclo=new.ciclo and modulo=new.modulo;
 call valorTextual(2);
 elseif(evaluaciones=3) then
-select (sum(valor)/3) into nota from notasboletin where dnialumno=new.dnialumno and ciclo=new.ciclo and modulo=new.modulo;
-update notafinal set valor=nota where dnialumno=new.dnialumno and ciclo=new.ciclo and modulo=new.modulo;
+update notafinal set valor=(select avg(valor) from notasboletin where dnialumno=new.dnialumno and ciclo=new.ciclo and modulo=new.modulo) where dnialumno=new.dnialumno and ciclo=new.ciclo and modulo=new.modulo;
 call valorTextual(2);
-end if;
-if(curso=2) then
-select (sum(valor)/2) into nota from notasboletin where dnialumno=new.dnialumno and ciclo=new.ciclo and modulo=new.modulo;
-update notafinal set valor=nota where dnialumno=new.dnialumno and ciclo=new.ciclo and modulo=new.modulo;
+else
+update notafinal set valor=(select avg(valor) from notasboletin where dnialumno=new.dnialumno and ciclo=new.ciclo and modulo=new.modulo) where dnialumno=new.dnialumno and ciclo=new.ciclo and modulo=new.modulo;
 call valorTextual(2);
 end if;
 end;
 // 
 
+create procedure generarProyectoPracticas(dni varchar(9),ciclo varchar(3))
+begin
+declare asignaturas int;
+declare aprobados int;
+select count(*) into asignaturas from notafinal where dnialumno=dni;
+select count(*) into aprobados from notafinal where dnialumno=dni and valor>=5;
+if(asignaturas=aprobados) then
+insert into notafinal values (dni,modulo,'PFG',floor(rand()*11),null);
+insert into notafinal values (dni,modulo,'PE',floor(rand()*11),null);
+call valorTextual(2);
+end if;
+end;
 
 
 
