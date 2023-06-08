@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profesores>
+	<profesor>
+		<nombre>Jose Antonio Pérez</nombre>
+		<ocupacion>Profesor de DAM</ocupacion>
+		<telefono tipo="fijo">983-20-30-45</telefono>
+		<telefono tipo="movil">633-45-69-87</telefono>
+		<correo>jose.perez@sanviatorvalladolid.com</correo>
+		<web>www.sanviatorvalladolid.com</web>
+		<direccion>P.º de Juan Carlos I, 12, 47008 Valladolid</direccion>
+	</profesor>
+	<profesor>
+		<nombre>Jose Luis Gutierrez</nombre>
+		<ocupacion>Profesor de Secundaria</ocupacion>
+		<telefono tipo="fijo">983-20-30-45</telefono>
+		<telefono tipo="movil">677-88-99-12</telefono>
+		<correo>jose.gutierrez@sanviatorvalladolid.com</correo>
+		<web>www.sanviatorvalladolid.com</web>
+		<direccion>P.º de Juan Carlos I, 12, 47008 Valladolid</direccion>
+	</profesor>
+	<profesor>
+		<nombre>Maria Sánchez</nombre>
+		<ocupacion>Profesora de Prótesis Dentales</ocupacion>
+		<telefono tipo="fijo">983-21-30-45</telefono>
+		<telefono tipo="movil">627-12-45-98</telefono>
+		<correo>maria.sanchez@sanviatorvalladolid.com</correo>
+		<web>www.sanviatorvalladolid.com</web>
+		<direccion>P.º de Juan Carlos I, 12, 47008 Valladolid</direccion>
+	</profesor>
+</profesores>
